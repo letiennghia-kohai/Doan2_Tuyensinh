@@ -1,0 +1,574 @@
+[2024-11-23T09:01:17.874+0000] {processor.py:157} INFO - Started process (PID=37) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:01:17.874+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:01:17.877+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:01:17.877+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:01:17.894+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:01:17.891+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:01:17.895+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:01:17.912+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.043 seconds
+[2024-11-23T09:01:48.033+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:01:48.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:01:48.045+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:01:48.043+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:01:48.059+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:01:48.056+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:01:48.060+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:01:48.082+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.051 seconds
+[2024-11-23T09:02:18.188+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:02:18.188+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:02:18.189+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:02:18.189+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:02:18.199+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:02:18.197+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:02:18.200+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:02:18.215+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.031 seconds
+[2024-11-23T09:02:48.335+0000] {processor.py:157} INFO - Started process (PID=40) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:02:48.335+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:02:48.336+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:02:48.336+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:02:48.345+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:02:48.343+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:02:48.346+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:02:48.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.028 seconds
+[2024-11-23T09:03:18.481+0000] {processor.py:157} INFO - Started process (PID=41) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:03:18.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:03:18.483+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:03:18.482+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:03:18.494+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:03:18.491+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:03:18.495+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:03:18.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.034 seconds
+[2024-11-23T09:03:48.629+0000] {processor.py:157} INFO - Started process (PID=42) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:03:48.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:03:48.630+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:03:48.630+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:03:48.641+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:03:48.639+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:03:48.642+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:03:48.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.029 seconds
+[2024-11-23T09:04:18.775+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:04:18.775+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:04:18.776+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:04:18.776+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:04:18.786+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:04:18.784+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:04:18.786+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:04:18.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.028 seconds
+[2024-11-23T09:04:48.922+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:04:48.923+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:04:48.924+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:04:48.923+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:04:48.934+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:04:48.932+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:04:48.935+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:04:48.948+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.028 seconds
+[2024-11-23T09:05:19.069+0000] {processor.py:157} INFO - Started process (PID=45) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:05:19.069+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:05:19.070+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:05:19.070+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:05:19.085+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:05:19.083+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:05:19.086+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:05:19.100+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.034 seconds
+[2024-11-23T09:05:49.216+0000] {processor.py:157} INFO - Started process (PID=46) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:05:49.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:05:49.217+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:05:49.217+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:05:49.227+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:05:49.225+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:05:49.229+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:05:49.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.031 seconds
+[2024-11-23T09:06:19.373+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:06:19.373+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:06:19.374+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:06:19.374+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:06:19.385+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:06:19.383+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:06:19.385+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:06:19.399+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.028 seconds
+[2024-11-23T09:06:49.520+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:06:49.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:06:49.521+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:06:49.521+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:06:49.532+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:06:49.530+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:06:49.533+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:06:49.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.031 seconds
+[2024-11-23T09:07:19.666+0000] {processor.py:157} INFO - Started process (PID=49) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:07:19.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:07:19.667+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:07:19.667+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:07:19.676+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:07:19.674+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:07:19.677+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:07:19.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.026 seconds
+[2024-11-23T09:07:49.812+0000] {processor.py:157} INFO - Started process (PID=50) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:07:49.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:07:49.814+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:07:49.813+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:07:49.823+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:07:49.821+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:07:49.824+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:07:49.838+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.028 seconds
+[2024-11-23T09:08:19.957+0000] {processor.py:157} INFO - Started process (PID=51) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:08:19.957+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:08:19.958+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:08:19.958+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:08:19.967+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:08:19.965+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:08:19.968+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:08:19.982+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.027 seconds
+[2024-11-23T09:08:50.106+0000] {processor.py:157} INFO - Started process (PID=52) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:08:50.107+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:08:50.108+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:08:50.107+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:08:50.117+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:08:50.115+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:08:50.118+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:08:50.132+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.029 seconds
+[2024-11-23T09:09:20.249+0000] {processor.py:157} INFO - Started process (PID=53) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:09:20.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:09:20.250+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:09:20.250+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:09:20.259+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:09:20.258+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:09:20.260+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:09:20.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.027 seconds
+[2024-11-23T09:09:50.395+0000] {processor.py:157} INFO - Started process (PID=54) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:09:50.395+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:09:50.396+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:09:50.396+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:09:50.405+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:09:50.403+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:09:50.406+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:09:50.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.027 seconds
+[2024-11-23T09:10:20.540+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:10:20.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:10:20.541+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:10:20.541+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:10:20.552+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:10:20.550+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:10:20.552+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:10:20.567+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds
+[2024-11-23T09:10:50.678+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:10:50.679+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:10:50.680+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:10:50.679+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:10:50.690+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:10:50.688+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:10:50.701+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:10:50.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.040 seconds
+[2024-11-23T09:11:20.840+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:11:20.841+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:11:20.842+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:11:20.842+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:11:20.852+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:11:20.850+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:11:20.853+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:11:20.867+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds
+[2024-11-23T09:11:50.977+0000] {processor.py:157} INFO - Started process (PID=58) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:11:50.978+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:11:50.979+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:11:50.978+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:11:50.988+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:11:50.986+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:11:50.988+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:11:51.002+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.027 seconds
+[2024-11-23T09:12:21.125+0000] {processor.py:157} INFO - Started process (PID=59) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:12:21.125+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:12:21.126+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:12:21.126+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:12:21.136+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:12:21.133+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:12:21.136+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:12:21.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.027 seconds
+[2024-11-23T09:12:51.268+0000] {processor.py:157} INFO - Started process (PID=60) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:12:51.268+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:12:51.269+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:12:51.269+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:12:51.280+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:12:51.278+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:12:51.281+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:12:51.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.036 seconds
+[2024-11-23T09:13:21.420+0000] {processor.py:157} INFO - Started process (PID=61) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:13:21.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:13:21.421+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:13:21.421+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:13:21.431+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:13:21.429+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:13:21.431+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:13:21.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.029 seconds
+[2024-11-23T09:13:51.567+0000] {processor.py:157} INFO - Started process (PID=62) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:13:51.568+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:13:51.569+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:13:51.569+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:13:51.579+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:13:51.577+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:13:51.580+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:13:51.592+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.027 seconds
+[2024-11-23T09:14:21.712+0000] {processor.py:157} INFO - Started process (PID=63) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:14:21.713+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:14:21.713+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:14:21.713+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:14:21.723+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:14:21.721+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:14:21.723+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:14:21.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.026 seconds
+[2024-11-23T09:15:52.694+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:15:52.695+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:15:52.697+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:15:52.697+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:15:52.715+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:15:52.711+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:15:52.717+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:15:52.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.052 seconds
+[2024-11-23T09:16:23.009+0000] {processor.py:157} INFO - Started process (PID=39) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:16:23.010+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:16:23.012+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:16:23.011+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:16:23.023+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:16:23.020+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:16:23.023+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:16:23.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.036 seconds
+[2024-11-23T09:16:53.148+0000] {processor.py:157} INFO - Started process (PID=40) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:16:53.149+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:16:53.151+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:16:53.150+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:16:53.161+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:16:53.159+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:16:53.162+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:16:53.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.032 seconds
+[2024-11-23T09:17:23.300+0000] {processor.py:157} INFO - Started process (PID=41) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:17:23.300+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:17:23.302+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:17:23.302+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:17:23.312+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:17:23.310+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:17:23.313+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:17:23.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds
+[2024-11-23T09:17:53.443+0000] {processor.py:157} INFO - Started process (PID=42) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:17:53.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:17:53.446+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:17:53.446+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:17:53.455+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:17:53.453+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:17:53.456+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:17:53.471+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds
+[2024-11-23T09:18:23.589+0000] {processor.py:157} INFO - Started process (PID=43) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:18:23.590+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:18:23.593+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:18:23.592+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:18:23.603+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:18:23.601+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:18:23.604+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:18:23.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.031 seconds
+[2024-11-23T09:18:53.737+0000] {processor.py:157} INFO - Started process (PID=44) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:18:53.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:18:53.739+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:18:53.739+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:18:53.748+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:18:53.747+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:18:53.749+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:18:53.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.029 seconds
+[2024-11-23T09:19:23.881+0000] {processor.py:157} INFO - Started process (PID=45) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:19:23.882+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:19:23.884+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:19:23.884+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:19:23.893+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:19:23.891+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:19:23.894+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:19:23.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.029 seconds
+[2024-11-23T09:19:54.028+0000] {processor.py:157} INFO - Started process (PID=46) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:19:54.029+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:19:54.031+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:19:54.030+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:19:54.040+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:19:54.038+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:19:54.041+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:19:54.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds
+[2024-11-23T09:20:24.180+0000] {processor.py:157} INFO - Started process (PID=47) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:20:24.180+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:20:24.182+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:20:24.182+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:20:24.192+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:20:24.190+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:20:24.193+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:20:24.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds
+[2024-11-23T09:20:54.346+0000] {processor.py:157} INFO - Started process (PID=48) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:20:54.347+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:20:54.349+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:20:54.349+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:20:54.359+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:20:54.357+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:20:54.360+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:20:54.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds
+[2024-11-23T09:21:24.487+0000] {processor.py:157} INFO - Started process (PID=49) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:21:24.488+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:21:24.490+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:21:24.490+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:21:24.499+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:21:24.497+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:21:24.499+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:21:24.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.028 seconds
+[2024-11-23T09:21:54.632+0000] {processor.py:157} INFO - Started process (PID=50) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:21:54.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:21:54.635+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:21:54.634+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:21:54.643+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:21:54.642+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:21:54.644+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:21:54.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.034 seconds
+[2024-11-23T09:22:24.775+0000] {processor.py:157} INFO - Started process (PID=51) to work on /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:22:24.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-11-23T09:22:24.778+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:22:24.778+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:22:24.787+0000] {logging_mixin.py:151} INFO - [2024-11-23T09:22:24.785+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 4, in <module>
+    from pipelines.reddit_pipeline import reddit_pipeline
+ModuleNotFoundError: No module named 'pipelines'
+[2024-11-23T09:22:24.788+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-11-23T09:22:24.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.030 seconds

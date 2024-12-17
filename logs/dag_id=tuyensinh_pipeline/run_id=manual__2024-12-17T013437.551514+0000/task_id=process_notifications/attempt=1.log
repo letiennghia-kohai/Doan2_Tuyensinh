@@ -1,0 +1,5086 @@
+[2024-12-17T01:34:44.798+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tuyensinh_pipeline.process_notifications manual__2024-12-17T01:34:37.551514+00:00 [queued]>
+[2024-12-17T01:34:44.806+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tuyensinh_pipeline.process_notifications manual__2024-12-17T01:34:37.551514+00:00 [queued]>
+[2024-12-17T01:34:44.806+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-12-17T01:34:44.821+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): process_notifications> on 2024-12-17 01:34:37.551514+00:00
+[2024-12-17T01:34:44.826+0000] {standard_task_runner.py:57} INFO - Started process 73 to run task
+[2024-12-17T01:34:44.829+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'tuyensinh_pipeline', 'process_notifications', 'manual__2024-12-17T01:34:37.551514+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/tuyensinh_dag.py', '--cfg-path', '/tmp/tmphmhjbxat']
+[2024-12-17T01:34:44.832+0000] {standard_task_runner.py:85} INFO - Job 33: Subtask process_notifications
+[2024-12-17T01:34:44.877+0000] {task_command.py:415} INFO - Running <TaskInstance: tuyensinh_pipeline.process_notifications manual__2024-12-17T01:34:37.551514+00:00 [running]> on host a3dab00b56e7
+[2024-12-17T01:34:44.954+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='NghiaLT' AIRFLOW_CTX_DAG_ID='tuyensinh_pipeline' AIRFLOW_CTX_TASK_ID='process_notifications' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T01:34:37.551514+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T01:34:37.551514+00:00'
+[2024-12-17T01:34:44.955+0000] {notification_pipeline.py:357} INFO - Starting process notifications task.
+[2024-12-17T01:34:44.966+0000] {logging_mixin.py:151} INFO - Error processing content_100_https___ts_hust_edu_vn_tin_tuc_pho_diem_bai_thi_da.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:44.972+0000] {logging_mixin.py:151} INFO - Error processing content_101_https___ts_hust_edu_vn_tin_tuc_thong_bao_nhan_don_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:44.979+0000] {logging_mixin.py:151} INFO - Error processing content_102_https___ts_hust_edu_vn_tin_tuc_huong_dan_tra_cuu_k.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:44.986+0000] {logging_mixin.py:151} INFO - Error processing content_103_https___ts_hust_edu_vn_tin_tuc_nguong_yeu_cau_theo.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:44.992+0000] {logging_mixin.py:151} INFO - Error processing content_104_https___ts_hust_edu_vn_tin_tuc_de_cuong_on_tap_bai.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:44.999+0000] {logging_mixin.py:151} INFO - Error processing content_105_https___ts_hust_edu_vn_tin_tuc_huong_dan_thanh_toa.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.006+0000] {logging_mixin.py:151} INFO - Error processing content_106_https___ts_hust_edu_vn_tin_tuc_nguong_yeu_cau_diem.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.012+0000] {logging_mixin.py:151} INFO - Error processing content_107_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_k.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.019+0000] {logging_mixin.py:151} INFO - Error processing content_108_https___ts_hust_edu_vn_tin_tuc_huong_dan_quy_doi_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.027+0000] {logging_mixin.py:151} INFO - Error processing content_109_https___ts_hust_edu_vn_tin_tuc_brochure_tuyen_sinh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.034+0000] {logging_mixin.py:151} INFO - Error processing content_10_https___ts_hust_edu_vn_tin_tuc_thong_tin_ve_su_co_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.042+0000] {logging_mixin.py:151} INFO - Error processing content_110_https___ts_hust_edu_vn_tin_tuc_chuong_trinh_dao_ta.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.049+0000] {logging_mixin.py:151} INFO - Error processing content_111_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.056+0000] {logging_mixin.py:151} INFO - Error processing content_112_https___ts_hust_edu_vn_tin_tuc_du_kien_phuong_thuc.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.062+0000] {logging_mixin.py:151} INFO - Error processing content_113_https___ts_hust_edu_vn_tin_tuc_bach_khoa_ha_noi_du.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.068+0000] {logging_mixin.py:151} INFO - Error processing content_114_https___ts_hust_edu_vn_tin_tuc_nam_2021_bach_khoa_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.075+0000] {logging_mixin.py:151} INFO - Error processing content_115_https___ts_hust_edu_vn_tin_tuc_truong_dhbk_ha_noi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.082+0000] {logging_mixin.py:151} INFO - Error processing content_116_https___ts_hust_edu_vn_tin_tuc_huong_dan_xac_nhan_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.090+0000] {logging_mixin.py:151} INFO - Error processing content_117_https___ts_hust_edu_vn_tin_tuc_dau_an_tuyen_sinh_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.097+0000] {logging_mixin.py:151} INFO - Error processing content_118_https___ts_hust_edu_vn_tin_tuc_mo_dang_ky_xet_tuye.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.103+0000] {logging_mixin.py:151} INFO - Error processing content_119_https___ts_hust_edu_vn_tin_tuc_huong_dan_quy_doi_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.109+0000] {logging_mixin.py:151} INFO - Error processing content_11_https___ts_hust_edu_vn_tin_tuc_ke_hoach_to_chuc_xe.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.116+0000] {logging_mixin.py:151} INFO - Error processing content_120_https___ts_hust_edu_vn_tin_tuc_dang_ky_xet_tuyen_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.125+0000] {logging_mixin.py:151} INFO - Error processing content_121_https___ts_hust_edu_vn_tin_tuc_tong_hop_hoi_dap_ve.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.131+0000] {logging_mixin.py:151} INFO - Error processing content_122_https___ts_hust_edu_vn_tin_tuc_de_cuong_on_tap_bai.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.138+0000] {logging_mixin.py:151} INFO - Error processing content_123_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.147+0000] {logging_mixin.py:151} INFO - Error processing content_124_https___ts_hust_edu_vn_tin_tuc_cach_tinh_diem_xet_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.157+0000] {logging_mixin.py:151} INFO - Error processing content_125_https___ts_hust_edu_vn_tin_tuc_nguong_yeu_cau_diem.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.164+0000] {logging_mixin.py:151} INFO - Error processing content_126_https___ts_hust_edu_vn_tin_tuc_bach_khoa_ha_noi_ti.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.172+0000] {logging_mixin.py:151} INFO - Error processing content_127_https___ts_hust_edu_vn_tin_tuc_bach_khoa_ha_noi_du.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.179+0000] {logging_mixin.py:151} INFO - Error processing content_128_https___ts_hust_edu_vn_tin_tuc_phuong_thuc_xet_tuy.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.186+0000] {logging_mixin.py:151} INFO - Error processing content_129_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.193+0000] {logging_mixin.py:151} INFO - Error processing content_12_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.200+0000] {logging_mixin.py:151} INFO - Error processing content_130_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.208+0000] {logging_mixin.py:151} INFO - Error processing content_131_https___ts_hust_edu_vn_tin_tuc_le_phi_tuyen_sinh_v.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.215+0000] {logging_mixin.py:151} INFO - Error processing content_132_https___ts_hust_edu_vn_tin_tuc_thu_tuc_quy_doi_chu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.223+0000] {logging_mixin.py:151} INFO - Error processing content_133_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.230+0000] {logging_mixin.py:151} INFO - Error processing content_134_https___ts_hust_edu_vn_tin_tuc_truong_dai_hoc_bach.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.238+0000] {logging_mixin.py:151} INFO - Error processing content_135_https___ts_hust_edu_vn_tin_tuc_huong_dan_xac_nhan_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.249+0000] {logging_mixin.py:151} INFO - Error processing content_136_https___ts_hust_edu_vn_tin_tuc_thong_tin_tuyen_sin.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.257+0000] {logging_mixin.py:151} INFO - Error processing content_137_https___ts_hust_edu_vn_tin_tuc_chi_tieu_ma_xet_tuy.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.264+0000] {logging_mixin.py:151} INFO - Error processing content_138_https___ts_hust_edu_vn_tin_tuc_nhung_dieu_can_biet.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.271+0000] {logging_mixin.py:151} INFO - Error processing content_139_https___ts_hust_edu_vn_tin_tuc_duoc_dang_ky_bao_nh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.278+0000] {logging_mixin.py:151} INFO - Error processing content_13_https___ts_hust_edu_vn_tin_tuc_gan_3000_giao_vien_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.285+0000] {logging_mixin.py:151} INFO - Error processing content_140_https___ts_hust_edu_vn_tin_tuc_nhung_chung_chi_quo.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.294+0000] {logging_mixin.py:151} INFO - Error processing content_141_https___ts_hust_edu_vn_tin_tuc_tap_huan_nang_cao_c.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.301+0000] {logging_mixin.py:151} INFO - Error processing content_142_https___ts_hust_edu_vn_tin_tuc_dam_me_nghien_cuu_k.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.308+0000] {logging_mixin.py:151} INFO - Error processing content_143_https___ts_hust_edu_vn_tin_tuc_huong_dan_dien_ho_s.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.315+0000] {logging_mixin.py:151} INFO - Error processing content_144_https___ts_hust_edu_vn_tin_tuc_huong_dan_dien_ho_s.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.324+0000] {logging_mixin.py:151} INFO - Error processing content_145_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.330+0000] {logging_mixin.py:151} INFO - Error processing content_146_https___ts_hust_edu_vn_tin_tuc_thong_bao_kiem_tra_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.337+0000] {logging_mixin.py:151} INFO - Error processing content_147_https___ts_hust_edu_vn_tin_tuc_huong_dan_thu_tuc_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.345+0000] {logging_mixin.py:151} INFO - Error processing content_148_https___ts_hust_edu_vn_tin_tuc_ket_qua_xet_tuyen_v.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.353+0000] {logging_mixin.py:151} INFO - Error processing content_149_https___ts_hust_edu_vn_tin_tuc_nhung_dieu_tan_sinh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.360+0000] {logging_mixin.py:151} INFO - Error processing content_14_https___ts_hust_edu_vn_tin_tuc_hieu_the_nao_ve_phu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.367+0000] {logging_mixin.py:151} INFO - Error processing content_150_https___ts_hust_edu_vn_tin_tuc_tuyen_sinh_cac_chuo.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.374+0000] {logging_mixin.py:151} INFO - Error processing content_151_https___ts_hust_edu_vn_tin_tuc_huong_dan_khai_bao_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.380+0000] {logging_mixin.py:151} INFO - Error processing content_152_https___ts_hust_edu_vn_tin_tuc_thong_bao_han_cuoi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.387+0000] {logging_mixin.py:151} INFO - Error processing content_153_https___ts_hust_edu_vn_tin_tuc_thong_bao_nhan_giay.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.394+0000] {logging_mixin.py:151} INFO - Error processing content_154_https___ts_hust_edu_vn_tin_tuc_nguong_dam_bao_chat.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.401+0000] {logging_mixin.py:151} INFO - Error processing content_155_https___ts_hust_edu_vn_tin_tuc_du_bao_diem_chuan_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.409+0000] {logging_mixin.py:151} INFO - Error processing content_156_https___ts_hust_edu_vn_tin_tuc_huong_dan_tra_cuu_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.416+0000] {logging_mixin.py:151} INFO - Error processing content_157_https___ts_hust_edu_vn_tin_tuc_cach_dang_ky_nguyen.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.423+0000] {logging_mixin.py:151} INFO - Error processing content_158_https___ts_hust_edu_vn_tin_tuc_bai_thi_dac_biet_cu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.430+0000] {logging_mixin.py:151} INFO - Error processing content_159_https___ts_hust_edu_vn_tin_tuc_quy_che_tham_du_bai.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.438+0000] {logging_mixin.py:151} INFO - Error processing content_15_https___ts_hust_edu_vn_tin_tuc_thu_khoa_dot_3_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.446+0000] {logging_mixin.py:151} INFO - Error processing content_160_https___ts_hust_edu_vn_tin_tuc_de_cuong_on_tap_kie.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.454+0000] {logging_mixin.py:151} INFO - Error processing content_161_https___ts_hust_edu_vn_tin_tuc_de_an_tuyen_sinh_da.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.461+0000] {logging_mixin.py:151} INFO - Error processing content_162_https___ts_hust_edu_vn_tin_tuc_chuong_trinh_dao_ta.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.469+0000] {logging_mixin.py:151} INFO - Error processing content_163_https___ts_hust_edu_vn_tin_tuc_cac_phuong_thuc_xet.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.476+0000] {logging_mixin.py:151} INFO - Error processing content_164_https___ts_hust_edu_vn_tin_tuc_times_higher_educat.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.483+0000] {logging_mixin.py:151} INFO - Error processing content_165_https___ts_hust_edu_vn_tin_tuc_tu_van_tuyen_sinh_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.490+0000] {logging_mixin.py:151} INFO - Error processing content_166_https___ts_hust_edu_vn_tin_tuc_cac_moc_thoi_gian_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.496+0000] {logging_mixin.py:151} INFO - Error processing content_167_https___ts_hust_edu_vn_tin_tuc_chuong_trinh_tu_van.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.504+0000] {logging_mixin.py:151} INFO - Error processing content_168_https___ts_hust_edu_vn_tin_tuc_chi_tieu_ma_xet_tuy.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.510+0000] {logging_mixin.py:151} INFO - Error processing content_169_https___ts_hust_edu_vn_tin_tuc_bo_gd_tiep_tuc_dieu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.516+0000] {logging_mixin.py:151} INFO - Error processing content_16_https___ts_hust_edu_vn_tin_tuc_bach_khoa_ha_noi_ta.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.523+0000] {logging_mixin.py:151} INFO - Error processing content_170_https___ts_hust_edu_vn_tin_tuc_infographic_chi_tie.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.529+0000] {logging_mixin.py:151} INFO - Error processing content_171_https___ts_hust_edu_vn_tin_tuc_dh_bach_khoa_ha_noi.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.537+0000] {logging_mixin.py:151} INFO - Error processing content_172_https___ts_hust_edu_vn_tin_tuc_review_nganh_ky_thu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.544+0000] {logging_mixin.py:151} INFO - Error processing content_173_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.551+0000] {logging_mixin.py:151} INFO - Error processing content_174_https___ts_hust_edu_vn_tin_tuc_dh_bach_khoa_ha_noi.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.558+0000] {logging_mixin.py:151} INFO - Error processing content_175_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.566+0000] {logging_mixin.py:151} INFO - Error processing content_176_https___ts_hust_edu_vn_tin_tuc_review_he_thong_tho.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.577+0000] {logging_mixin.py:151} INFO - Error processing content_177_https___ts_hust_edu_vn_tin_tuc_review_nganh_toan_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.584+0000] {logging_mixin.py:151} INFO - Error processing content_178_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.594+0000] {logging_mixin.py:151} INFO - Error processing content_179_https___ts_hust_edu_vn_tin_tuc_nganh_khoa_hoc_may_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.601+0000] {logging_mixin.py:151} INFO - Error processing content_17_https___ts_hust_edu_vn_tin_tuc_11_000_thi_sinh_thi.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.608+0000] {logging_mixin.py:151} INFO - Error processing content_180_https___ts_hust_edu_vn_tin_tuc_nhung_cau_hoi_thuon.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.616+0000] {logging_mixin.py:151} INFO - Error processing content_181_https___ts_hust_edu_vn_tin_tuc_tai_sao_khong_mo_ng.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.624+0000] {logging_mixin.py:151} INFO - Error processing content_182_https___ts_hust_edu_vn_tin_tuc_ngay_hoi_tu_van_tuy.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.630+0000] {logging_mixin.py:151} INFO - Error processing content_183_https___ts_hust_edu_vn_tin_tuc_gia_han_dang_ky_tha.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.639+0000] {logging_mixin.py:151} INFO - Error processing content_184_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.646+0000] {logging_mixin.py:151} INFO - Error processing content_185_https___ts_hust_edu_vn_tin_tuc_thong_bao_ket_qua_s.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.654+0000] {logging_mixin.py:151} INFO - Error processing content_186_https___ts_hust_edu_vn_tin_tuc_diem_chuan_trung_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.661+0000] {logging_mixin.py:151} INFO - Error processing content_187_https___ts_hust_edu_vn_tin_tuc_giac_mo_thanh_hien_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.668+0000] {logging_mixin.py:151} INFO - Error processing content_188_https___ts_hust_edu_vn_tin_tuc_dhbk_ha_noi_gioi_th.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.676+0000] {logging_mixin.py:151} INFO - Error processing content_189_https___ts_hust_edu_vn_tin_tuc_truong_dhbk_ha_noi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.682+0000] {logging_mixin.py:151} INFO - Error processing content_18_https___ts_hust_edu_vn_tin_tuc_quy_dinh_xet_tuyen_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.690+0000] {logging_mixin.py:151} INFO - Error processing content_190_https___ts_hust_edu_vn_tin_tuc_review_nganh_ky_thu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.696+0000] {logging_mixin.py:151} INFO - Error processing content_191_https___ts_hust_edu_vn_tin_tuc_sinh_vien_bach_khoa.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.704+0000] {logging_mixin.py:151} INFO - Error processing content_192_https___ts_hust_edu_vn_tin_tuc_muc_hoc_phi_nam_hoc.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.711+0000] {logging_mixin.py:151} INFO - Error processing content_193_https___ts_hust_edu_vn_tin_tuc_thac_mac_ve_nganh_c.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.718+0000] {logging_mixin.py:151} INFO - Error processing content_194_https___ts_hust_edu_vn_tin_tuc_truong_dh_bach_khoa.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.726+0000] {logging_mixin.py:151} INFO - Error processing content_195_https___ts_hust_edu_vn_tin_tuc_kham_pha_tinh_hoa_b.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.732+0000] {logging_mixin.py:151} INFO - Error processing content_196_https___ts_hust_edu_vn_tin_tuc_mo_dang_ky_ngay_tra.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.740+0000] {logging_mixin.py:151} INFO - Error processing content_197_https___ts_hust_edu_vn_tin_tuc_diem_chuan_trung_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.747+0000] {logging_mixin.py:151} INFO - Error processing content_198_https___ts_hust_edu_vn_tin_tuc_luu_y_quan_trong_do.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.753+0000] {logging_mixin.py:151} INFO - Error processing content_199_https___ts_hust_edu_vn_tin_tuc_huong_dan_xet_tuyen.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.760+0000] {logging_mixin.py:151} INFO - Error processing content_19_https___ts_hust_edu_vn_tin_tuc_thong_tin_tuyen_sin.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.767+0000] {logging_mixin.py:151} INFO - Error processing content_1_https___ts_hust_edu_vn_tin_tuc_diem_chuan_dai_hoc_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.775+0000] {logging_mixin.py:151} INFO - Error processing content_200_https___ts_hust_edu_vn_tin_tuc_quy_dinh_tuyen_than.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.782+0000] {logging_mixin.py:151} INFO - Error processing content_201_https___ts_hust_edu_vn_tin_tuc_hoc_phi_cac_chuong_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.792+0000] {logging_mixin.py:151} INFO - Error processing content_202_https___ts_hust_edu_vn_tin_tuc_chuong_trinh_dao_ta.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.798+0000] {logging_mixin.py:151} INFO - Error processing content_203_https___ts_hust_edu_vn_tin_tuc_chuong_trinh_dao_ta.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.805+0000] {logging_mixin.py:151} INFO - Error processing content_204_https___ts_hust_edu_vn_tin_tuc_chi_tieu_ma_xet_tuy.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.812+0000] {logging_mixin.py:151} INFO - Error processing content_205_https___ts_hust_edu_vn_tin_tuc_phuong_thuc_tuyen_s.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.819+0000] {logging_mixin.py:151} INFO - Error processing content_206_https___ts_hust_edu_vn_tin_tuc_ma_act_ma_sat_danh_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.826+0000] {logging_mixin.py:151} INFO - Error processing content_207_https___ts_hust_edu_vn_tin_tuc_doi_tuong_uu_tien_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.832+0000] {logging_mixin.py:151} INFO - Error processing content_208_https___ts_hust_edu_vn_tin_tuc_gia_han_nhan_ho_so_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.841+0000] {logging_mixin.py:151} INFO - Error processing content_209_https___ts_hust_edu_vn_tin_tuc_uu_diem_noi_bat_cua.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.848+0000] {logging_mixin.py:151} INFO - Error processing content_20_https___ts_hust_edu_vn_tin_tuc_thong_bao_ve_viec_m.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.855+0000] {logging_mixin.py:151} INFO - Error processing content_210_https___ts_hust_edu_vn_tin_tuc_uu_diem_noi_bat_cua.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.861+0000] {logging_mixin.py:151} INFO - Error processing content_211_https___ts_hust_edu_vn_tin_tuc_cach_tinh_diem_xet_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.867+0000] {logging_mixin.py:151} INFO - Error processing content_212_https___ts_hust_edu_vn_tin_tuc_huong_dan_thay_doi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.874+0000] {logging_mixin.py:151} INFO - Error processing content_213_https___ts_hust_edu_vn_tin_tuc_hoi_dap_cac_cau_hoi.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.880+0000] {logging_mixin.py:151} INFO - Error processing content_214_https___ts_hust_edu_vn_tin_tuc_chuong_trinh_bkacad.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.886+0000] {logging_mixin.py:151} INFO - Error processing content_215_https___ts_hust_edu_vn_tin_tuc_su_kien_chao_mung_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.893+0000] {logging_mixin.py:151} INFO - Error processing content_216_https___ts_hust_edu_vn_tin_tuc_truong_dhbk_ha_noi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.900+0000] {logging_mixin.py:151} INFO - Error processing content_217_https___ts_hust_edu_vn_tin_tuc_da_cham_xong_bai_th.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.908+0000] {logging_mixin.py:151} INFO - Error processing content_218_https___ts_hust_edu_vn_tin_tuc_du_bao_muc_diem_tru.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.915+0000] {logging_mixin.py:151} INFO - Error processing content_219_https___ts_hust_edu_vn_tin_tuc_ngay_hoi_tu_van_xet.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.922+0000] {logging_mixin.py:151} INFO - Error processing content_21_https___ts_hust_edu_vn_tin_tuc_mo_dang_ky_ky_thi_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.928+0000] {logging_mixin.py:151} INFO - Error processing content_220_https___ts_hust_edu_vn_tin_tuc_trao_hoc_bong_tai_n.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.935+0000] {logging_mixin.py:151} INFO - Error processing content_221_https___ts_hust_edu_vn_tin_tuc_cach_xet_nguyen_von.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.942+0000] {logging_mixin.py:151} INFO - Error processing content_222_https___ts_hust_edu_vn_tin_tuc_truong_dhbk_ha_noi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.948+0000] {logging_mixin.py:151} INFO - Error processing content_223_https___ts_hust_edu_vn_tin_tuc_huong_dan_thu_tuc_n.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.955+0000] {logging_mixin.py:151} INFO - Error processing content_224_https___ts_hust_edu_vn_tin_tuc_tong_hop_dang_ky_xe.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.962+0000] {logging_mixin.py:151} INFO - Error processing content_225_https___ts_hust_edu_vn_tin_tuc_ngay_hoi_tu_van_xet.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.971+0000] {logging_mixin.py:151} INFO - Error processing content_226_https___ts_hust_edu_vn_tin_tuc_nhung_dieu_tan_sinh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.978+0000] {logging_mixin.py:151} INFO - Error processing content_227_https___ts_hust_edu_vn_tin_tuc_huong_dan_dien_so_y.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.985+0000] {logging_mixin.py:151} INFO - Error processing content_228_https___ts_hust_edu_vn_tin_tuc_hon_600_hoc_sinh_th.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:45.992+0000] {logging_mixin.py:151} INFO - Error processing content_229_https___ts_hust_edu_vn_tin_tuc_su_kien_giao_duc_tr.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.000+0000] {logging_mixin.py:151} INFO - Error processing content_22_https___ts_hust_edu_vn_tin_tuc_pho_diem_ky_thi_dan.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.008+0000] {logging_mixin.py:151} INFO - Error processing content_230_https___ts_hust_edu_vn_tin_tuc_diem_chuan_trung_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.014+0000] {logging_mixin.py:151} INFO - Error processing content_23_https___ts_hust_edu_vn_tin_tuc_dai_hoc_bach_khoa_h.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.021+0000] {logging_mixin.py:151} INFO - Error processing content_24_https___ts_hust_edu_vn_tin_tuc_mo_dang_ky_ky_thi_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.029+0000] {logging_mixin.py:151} INFO - Error processing content_25_https___ts_hust_edu_vn_tin_tuc_huong_dan_cac_buoc_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.037+0000] {logging_mixin.py:151} INFO - Error processing content_26_https___ts_hust_edu_vn_tin_tuc_diem_cao_nhat_ky_th.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.044+0000] {logging_mixin.py:151} INFO - Error processing content_27_https___ts_hust_edu_vn_tin_tuc_hang_nghin_thi_sinh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.051+0000] {logging_mixin.py:151} INFO - Error processing content_28_https___ts_hust_edu_vn_tin_tuc_giao_luu_truc_tuyen.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.058+0000] {logging_mixin.py:151} INFO - Error processing content_29_https___ts_hust_edu_vn_tin_tuc_trai_nghiem_dai_hoc.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.065+0000] {logging_mixin.py:151} INFO - Error processing content_2_https___ts_hust_edu_vn_tin_tuc_dai_hoc_bach_khoa_h.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.072+0000] {logging_mixin.py:151} INFO - Error processing content_30_https___ts_hust_edu_vn_tin_tuc_mo_dang_ky_ky_thi_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.078+0000] {logging_mixin.py:151} INFO - Error processing content_31_https___ts_hust_edu_vn_tin_tuc_quy_che_thi_danh_gi.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.084+0000] {logging_mixin.py:151} INFO - Error processing content_32_https___ts_hust_edu_vn_tin_tuc_6_moc_thoi_gian_qua.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.092+0000] {logging_mixin.py:151} INFO - Error processing content_33_https___ts_hust_edu_vn_tin_tuc_bai_thi_danh_gia_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.099+0000] {logging_mixin.py:151} INFO - Error processing content_34_https___ts_hust_edu_vn_tin_tuc_thong_bao_ke_hoach_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.107+0000] {logging_mixin.py:151} INFO - Error processing content_35_https___ts_hust_edu_vn_tin_tuc_diem_chuan_trung_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.114+0000] {logging_mixin.py:151} INFO - Error processing content_36_https___ts_hust_edu_vn_tin_tuc_lich_kiem_tra_tieng.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.121+0000] {logging_mixin.py:151} INFO - Error processing content_37_https___ts_hust_edu_vn_tin_tuc_cach_tinh_diem_xet_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.127+0000] {logging_mixin.py:151} INFO - Error processing content_38_https___ts_hust_edu_vn_tin_tuc_du_bao_diem_chuan_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.134+0000] {logging_mixin.py:151} INFO - Error processing content_39_https___ts_hust_edu_vn_tin_tuc_du_bao_diem_chuan_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.141+0000] {logging_mixin.py:151} INFO - Error processing content_3_https___ts_hust_edu_vn_tin_tuc_du_bao_diem_chuan_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.147+0000] {logging_mixin.py:151} INFO - Error processing content_40_https___ts_hust_edu_vn_tin_tuc_ma_sat_act_danh_cho.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.154+0000] {logging_mixin.py:151} INFO - Error processing content_41_https___ts_hust_edu_vn_tin_tuc_nguong_yeu_cau_doi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.161+0000] {logging_mixin.py:151} INFO - Error processing content_42_https___ts_hust_edu_vn_tin_tuc_danh_sach_to_tu_van.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.168+0000] {logging_mixin.py:151} INFO - Error processing content_43_https___ts_hust_edu_vn_tin_tuc_dai_hoc_bach_khoa_h.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.175+0000] {logging_mixin.py:151} INFO - Error processing content_44_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_k.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.181+0000] {logging_mixin.py:151} INFO - Error processing content_45_https___ts_hust_edu_vn_tin_tuc_huong_dan_quy_doi_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.188+0000] {logging_mixin.py:151} INFO - Error processing content_46_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.195+0000] {logging_mixin.py:151} INFO - Error processing content_47_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.202+0000] {logging_mixin.py:151} INFO - Error processing content_48_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.209+0000] {logging_mixin.py:151} INFO - Error processing content_49_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.216+0000] {logging_mixin.py:151} INFO - Error processing content_4_https___ts_hust_edu_vn_tin_tuc_ma_sat_act_danh_cho.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.223+0000] {logging_mixin.py:151} INFO - Error processing content_50_https___ts_hust_edu_vn_tin_tuc_quy_che_xet_tuyen_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.229+0000] {logging_mixin.py:151} INFO - Error processing content_51_https___ts_hust_edu_vn_tin_tuc_can_chuan_bi_nhung_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.236+0000] {logging_mixin.py:151} INFO - Error processing content_52_https___ts_hust_edu_vn_tin_tuc_thong_tin_ve_ky_thi.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.244+0000] {logging_mixin.py:151} INFO - Error processing content_53_https___ts_hust_edu_vn_tin_tuc_thong_tin_tuyen_sin.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.250+0000] {logging_mixin.py:151} INFO - Error processing content_54_https___ts_hust_edu_vn_tin_tuc_de_an_to_chuc_ky_th.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.257+0000] {logging_mixin.py:151} INFO - Error processing content_55_https___ts_hust_edu_vn_tin_tuc_de_an_tuyen_sinh_na.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.263+0000] {logging_mixin.py:151} INFO - Error processing content_56_https___ts_hust_edu_vn_tin_tuc_du_kien_phuong_thuc.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.271+0000] {logging_mixin.py:151} INFO - Error processing content_57_https___ts_hust_edu_vn_tin_tuc_thinking_assessment.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.278+0000] {logging_mixin.py:151} INFO - Error processing content_58_https___ts_hust_edu_vn_tin_tuc_cong_bo_cau_hoi_min.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.285+0000] {logging_mixin.py:151} INFO - Error processing content_59_https___ts_hust_edu_vn_tin_tuc_dai_hoc_bach_khoa_h.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.293+0000] {logging_mixin.py:151} INFO - Error processing content_5_https___ts_hust_edu_vn_tin_tuc_dh_bach_khoa_ha_noi.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.299+0000] {logging_mixin.py:151} INFO - Error processing content_60_https___ts_hust_edu_vn_tin_tuc_trai_nghiem_dai_hoc.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.308+0000] {logging_mixin.py:151} INFO - Error processing content_61_https___ts_hust_edu_vn_tin_tuc_chuong_trinh_dao_ta.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.315+0000] {logging_mixin.py:151} INFO - Error processing content_62_https___ts_hust_edu_vn_tin_tuc_tra_cuu_so_bao_danh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.322+0000] {logging_mixin.py:151} INFO - Error processing content_63_https___ts_hust_edu_vn_tin_tuc_huong_dan_nop_ho_so.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.329+0000] {logging_mixin.py:151} INFO - Error processing content_64_https___ts_hust_edu_vn_tin_tuc_ket_qua_xet_tuyen_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.335+0000] {logging_mixin.py:151} INFO - Error processing content_65_https___ts_hust_edu_vn_tin_tuc_danh_sach_thi_sinh_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.342+0000] {logging_mixin.py:151} INFO - Error processing content_66_https___ts_hust_edu_vn_tin_tuc_diem_chuan_trung_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.350+0000] {logging_mixin.py:151} INFO - Error processing content_67_https___ts_hust_edu_vn_tin_tuc_cach_tinh_diem_xet_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.357+0000] {logging_mixin.py:151} INFO - Error processing content_68_https___ts_hust_edu_vn_tin_tuc_kiem_tra_tieng_anh_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.364+0000] {logging_mixin.py:151} INFO - Error processing content_69_https___ts_hust_edu_vn_tin_tuc_ket_qua_xet_tuyen_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.371+0000] {logging_mixin.py:151} INFO - Error processing content_6_https___ts_hust_edu_vn_tin_tuc_huong_dan_dieu_chin.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.379+0000] {logging_mixin.py:151} INFO - Error processing content_70_https___ts_hust_edu_vn_tin_tuc_muc_diem_chuan_trun.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.385+0000] {logging_mixin.py:151} INFO - Error processing content_71_https___ts_hust_edu_vn_tin_tuc_mo_lai_he_thong_tuy.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.392+0000] {logging_mixin.py:151} INFO - Error processing content_72_https___ts_hust_edu_vn_tin_tuc_thu_tuc_xac_nhan_nh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.399+0000] {logging_mixin.py:151} INFO - Error processing content_73_https___ts_hust_edu_vn_tin_tuc_bach_khoa_ha_noi_du.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.406+0000] {logging_mixin.py:151} INFO - Error processing content_74_https___ts_hust_edu_vn_tin_tuc_huong_dan_tra_cuu_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.413+0000] {logging_mixin.py:151} INFO - Error processing content_75_https___ts_hust_edu_vn_tin_tuc_huong_dan_thu_tuc_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.421+0000] {logging_mixin.py:151} INFO - Error processing content_76_https___ts_hust_edu_vn_tin_tuc_huong_dan_tra_cuu_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.429+0000] {logging_mixin.py:151} INFO - Error processing content_77_https___ts_hust_edu_vn_tin_tuc_nhung_dieu_tan_sinh.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.436+0000] {logging_mixin.py:151} INFO - Error processing content_78_https___ts_hust_edu_vn_tin_tuc_thong_bao_so_2_ve_v.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.442+0000] {logging_mixin.py:151} INFO - Error processing content_79_https___ts_hust_edu_vn_tin_tuc_tim_hieu_nganh_nghe.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.449+0000] {logging_mixin.py:151} INFO - Error processing content_7_https___ts_hust_edu_vn_tin_tuc_de_an_tuyen_sinh_da.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.455+0000] {logging_mixin.py:151} INFO - Error processing content_80_https___ts_hust_edu_vn_tin_tuc_mo_dang_ky_thi_thu_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.461+0000] {logging_mixin.py:151} INFO - Error processing content_81_https___ts_hust_edu_vn_tin_tuc_du_kien_phuong_thuc.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.467+0000] {logging_mixin.py:151} INFO - Error processing content_82_https___ts_hust_edu_vn_tin_tuc_thong_bao_so_3_ve_v.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.473+0000] {logging_mixin.py:151} INFO - Error processing content_83_https___ts_hust_edu_vn_tin_tuc_huong_dan_lam_bai_t.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.479+0000] {logging_mixin.py:151} INFO - Error processing content_84_https___ts_hust_edu_vn_tin_tuc_bai_thi_danh_gia_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.487+0000] {logging_mixin.py:151} INFO - Error processing content_85_https___ts_hust_edu_vn_tin_tuc_mo_dang_ky_thi_thu_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.495+0000] {logging_mixin.py:151} INFO - Error processing content_86_https___ts_hust_edu_vn_tin_tuc_thong_bao_cuoi_cung.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.503+0000] {logging_mixin.py:151} INFO - Error processing content_87_https___ts_hust_edu_vn_tin_tuc_bach_khoa_ha_noi_xe.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.511+0000] {logging_mixin.py:151} INFO - Error processing content_88_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.519+0000] {logging_mixin.py:151} INFO - Error processing content_89_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.529+0000] {logging_mixin.py:151} INFO - Error processing content_8_https___ts_hust_edu_vn_tin_tuc_pho_diem_ky_thi_dan.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.536+0000] {logging_mixin.py:151} INFO - Error processing content_90_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.543+0000] {logging_mixin.py:151} INFO - Error processing content_91_https___ts_hust_edu_vn_tin_tuc_danh_sach_21_truong.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.551+0000] {logging_mixin.py:151} INFO - Error processing content_92_https___ts_hust_edu_vn_tin_tuc_mot_so_dieu_luu_y_c.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.558+0000] {logging_mixin.py:151} INFO - Error processing content_93_https___ts_hust_edu_vn_tin_tuc_huong_dan_chuan_bi_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.565+0000] {logging_mixin.py:151} INFO - Error processing content_94_https___ts_hust_edu_vn_tin_tuc_huong_dan_xac_nhan_.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.572+0000] {logging_mixin.py:151} INFO - Error processing content_95_https___ts_hust_edu_vn_tin_tuc_diem_chuan_trung_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.580+0000] {logging_mixin.py:151} INFO - Error processing content_96_https___ts_hust_edu_vn_tin_tuc_diem_chuan_trung_tu.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.587+0000] {logging_mixin.py:151} INFO - Error processing content_97_https___ts_hust_edu_vn_tin_tuc_dieu_kien_dang_ky_x.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.594+0000] {logging_mixin.py:151} INFO - Error processing content_98_https___ts_hust_edu_vn_tin_tuc_huong_dan_dang_ky_n.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.603+0000] {logging_mixin.py:151} INFO - Error processing content_99_https___ts_hust_edu_vn_tin_tuc_cach_tinh_diem_trun.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.611+0000] {logging_mixin.py:151} INFO - Error processing content_9_https___ts_hust_edu_vn_tin_tuc_thong_bao_ve_lich_d.txt: 
+**********************************************************************
+  Resource punkt_tab not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+  
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt_tab/english/
+
+  Searched in:
+    - '/home/airflow/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+[2024-12-17T01:34:46.611+0000] {notification_pipeline.py:365} ERROR - Error in process_notifications_task: [Errno 21] Is a directory: '/opt/airflow/data/notification_data/'
+[2024-12-17T01:34:46.611+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/pipelines/notification_pipeline.py", line 361, in process_notifications_task
+    preprocessor.save_to_json()
+  File "/opt/airflow/pipelines/notification_pipeline.py", line 308, in save_to_json
+    with open(self.output_file, 'w', encoding='utf-8') as f:
+IsADirectoryError: [Errno 21] Is a directory: '/opt/airflow/data/notification_data/'
+[2024-12-17T01:34:46.622+0000] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=tuyensinh_pipeline, task_id=process_notifications, execution_date=20241217T013437, start_date=20241217T013444, end_date=20241217T013446
+[2024-12-17T01:34:46.636+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 33 for task process_notifications ([Errno 21] Is a directory: '/opt/airflow/data/notification_data/'; 73)
+[2024-12-17T01:34:46.646+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-12-17T01:34:46.660+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

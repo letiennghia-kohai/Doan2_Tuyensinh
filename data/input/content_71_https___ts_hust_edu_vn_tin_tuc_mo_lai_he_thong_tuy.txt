@@ -1,0 +1,83 @@
+Mở lại hệ thống tuyển sinh cho thí sinh xét tuyển tài năng đăng ký đợt 2 21-09-2022 
+
+
+
+Theo thông báo trên hệ thống đăng ký tuyển sinh, những thí sinh xét tuyển tài năng theo chứng chỉ quốc tế (diện 1.2) và theo hồ sơ năng lực kết hợp phỏng vấn (diện 1.3), nếu chưa đạt ngưỡng yêu cầu của ĐHBK Hà Nội vào các ngành/chương trình đào tạo đã đăng ký trong đợt 1 (từ 20/4 đến 18/5/2021), có thể tiếp tục tham gia xét tuyển vào các ngành/chương trình đào tạo khác trong đợt tiếp theo. Sáng mai, 21/6, Trường ĐHBK Hà Nội sẽ mở lại hệ thống tuyển sinh để các thí sinh thuộc 02 diện này đăng ký xét tuyển. 
+
+Vào các ngày từ 21/6 đến hết 23/6, thí sinh xét tuyển tài năng đang trong diện chờ xét tuyển đợt tiếp theo thực hiện thay đổi nguyện vọng cho phù hợp để tiếp tục xét tuyển đợt 2. Điểm yêu cầu tối thiểu bằng ngưỡng xét tuyển Nhà trường đã công bố vào 58 ngành/chương trình đào tạo trong đợt 1. 
+
+Điểm xét tuyển đợt 2 của thí sinh vẫn là điểm đã dùng để xét tuyển thẳng trong đợt đầu tiên, là tổng điểm học lực, điểm thành tích, điểm phỏng vấn và điểm thưởng, . Tuy nhiên, khi điều chỉnh nguyện vọng để xét tuyển đợt 2, nếu lựa chọn ngành học phù hợp, điểm xét tuyển này sẽ thay đổi. Mức điểm thay đổi tối đa mà thí sinh có thể nhận được là 10 điểm. 
+
+TT | Chương trình đào tạo | Điểm thưởng
+1 | BF1-Kỹ thuật Sinh học | 5
+2 | BF2-Kỹ thuật Thực phẩm | 5
+3 | CH1-Kỹ thuật Hóa học | 5
+4 | EE1-Kỹ thuật Điện | 5
+5 | ET1-Kỹ thuật Điện tử Viễn thông | 5
+6 | EM2-Quản lý Công nghiệp | 5
+7 | EM3-Quản trị Kinh doanh | 5
+8 | EM4-Kế toán | 5
+9 | HE1-Kỹ thuật Nhiệt | 5
+10 | ME2-Kỹ thuật Cơ khí | 5
+11 | MS1-Kỹ thuật Vật liệu | 5
+12 | PH1-Vật lý Kỹ thuật | 5
+13 | TE2-Kỹ thuật Cơ khí động lực | 5
+14 | TE3-Kỹ thuật Hàng không | 5
+15 | BF-E12-Kỹ thuật Thực phẩm | 5
+16 | CH-E11-Kỹ thuật Hóa dược | 5
+17 | EE-E18-Hệ thống điện và năng lượng tái tạo | 5
+18 | EE-EP-Tin học công nghiệp và Tự động hóa | 5
+19 | EM-E13-Phân tích Kinh doanh | 5
+20 | EM-E14-Logistics và Quản lý chuỗi cung ứng | 5
+21 | ET-E5-Kỹ thuật Y sinh | 5
+22 | ET-E16-Truyền thông số và Kỹ thuật đa phương tiện | 5
+23 | ME-E1-Kỹ thuật Cơ điện tử | 5
+24 | TE-E2-Kỹ thuật Ô tô | 5
+25 | TROY-IT-Khoa học Máy tính-Troy (Hoa Kỳ) | 5
+TT | Chương trình đào tạo | Điểm thưởng
+1 | CH2-Hóa học | 10
+2 | CH3-Kỹ thuật In | 10
+3 | ED2-Công nghệ Giáo dục | 10
+4 | EM1-Kinh tế Công nghiệp | 10
+5 | EM5-Tài chính Ngân hàng | 10
+6 | EV1-Kỹ thuật Môi trường | 10
+7 | EV2-Quản lý Tài nguyên và Môi trường | 10
+8 | FL1-Tiếng Anh KHKT và Công nghệ | 10
+9 | FL2-Tiếng Anh chuyên nghiệp quốc tế | 10
+10 | PH2-Kỹ thuật Hạt nhân | 10
+11 | PH3-Vật lý Y khoa | 10
+12 | TX1-Kỹ thuật Dệt May | 10
+13 | MS-E3-KHKT Vật liệu | 10
+14 | TE-EP-Cơ khí Hàng không Việt-Pháp | 10
+15 | ET-LUH-Điện tử Viễn thông-Leibniz Hannover (Đức) | 10
+16 | ME-GU-Cơ khí Chế tạo máy-Griffith (Úc) | 10
+17 | ME-LUH-Cơ điện tử-Leibniz Hannover (Đức) | 10
+18 | ME-NUT-Cơ điện tử-Nagaoka (Nhật Bản) | 10
+19 | TROY-BA-Quản trị Kinh doanh-Troy (Hoa Kỳ) | 10
+
+
+
+
+
+Theo thống kê, tỷ lệ xác nhận nhập học đối với thí sinh xét tuyển tài năng đợt 1 diện 1.2 và diện 1.3 là 85. Trong đó, một số ngành/nhóm ngành có tỷ lệ xác nhận cao, như: Công nghệ thông tin, Điện, Điện tử Viễn thông, Ngoài ra, các chương trình tiên tiến cũng ngày càng nhận được sự yêu mến của thí sinh. 
+
+Dự kiến, kết quả xét tuyển tài năng đợt 2 sẽ được công bố vào ngày 25/6/2021. 
+
+
+
+Lưu tin 
+
+Bình luận 
+
+
+
+
+
+
+
+Chia sẻ 
+
+
+
+
+

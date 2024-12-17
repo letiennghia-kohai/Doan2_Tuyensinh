@@ -1,0 +1,15 @@
+[2024-12-15T12:25:30.638+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tuyensinh_pipeline.etl_to_mysql manual__2024-12-15T12:25:21.973378+00:00 [queued]>
+[2024-12-15T12:25:30.645+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tuyensinh_pipeline.etl_to_mysql manual__2024-12-15T12:25:21.973378+00:00 [queued]>
+[2024-12-15T12:25:30.645+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-12-15T12:25:30.661+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): etl_to_mysql> on 2024-12-15 12:25:21.973378+00:00
+[2024-12-15T12:25:30.666+0000] {standard_task_runner.py:57} INFO - Started process 85 to run task
+[2024-12-15T12:25:30.669+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'tuyensinh_pipeline', 'etl_to_mysql', 'manual__2024-12-15T12:25:21.973378+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/tuyensinh_dag.py', '--cfg-path', '/tmp/tmpz6_z_4lz']
+[2024-12-15T12:25:30.671+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask etl_to_mysql
+[2024-12-15T12:25:30.719+0000] {task_command.py:415} INFO - Running <TaskInstance: tuyensinh_pipeline.etl_to_mysql manual__2024-12-15T12:25:21.973378+00:00 [running]> on host c3a2b43d39be
+[2024-12-15T12:25:30.804+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='NghiaLT' AIRFLOW_CTX_DAG_ID='tuyensinh_pipeline' AIRFLOW_CTX_TASK_ID='etl_to_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-12-15T12:25:21.973378+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-15T12:25:21.973378+00:00'
+[2024-12-15T12:25:30.810+0000] {logging_mixin.py:151} INFO - Lỗi khi thực hiện ETL: 1044 (42000): Access denied for user 'airflow_user'@'%' to database 'university_data'
+[2024-12-15T12:25:30.810+0000] {logging_mixin.py:151} INFO - Kết nối MySQL đã đóng
+[2024-12-15T12:25:30.811+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-12-15T12:25:30.819+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=tuyensinh_pipeline, task_id=etl_to_mysql, execution_date=20241215T122521, start_date=20241215T122530, end_date=20241215T122530
+[2024-12-15T12:25:30.841+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-12-15T12:25:30.854+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

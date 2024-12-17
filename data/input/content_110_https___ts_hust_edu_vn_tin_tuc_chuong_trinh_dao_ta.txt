@@ -1,0 +1,134 @@
+Chương trình đào tạo chuẩn Trường Đại học Bách Khoa Hà Nội 26-09-2021 
+
+
+
+Đặc điểm chung là các chương trình đào tạo được xây dựng theo chuẩn quốc tế, định hướng ngành rộng, cung cấp các kiến thức nền tảng và cốt lõi, chú trọng các hoạt động nghiên cứu, sáng tạo và khả năng thích ứng của người học trong môi trường quốc tế. 
+
+
+
+
+
+
+
+Sinh viên của Trường Đại học Bách khoa Hà Nội có nhiều lựa chọn về ngành học và hướng phát triển nghề nghiệp theo nguyện vọng và năng lực cá nhân. Mô hình đào tạo của Trường được đổi mới theo hướng tích hợp, linh hoạt và hội nhập quốc tế, hỗ trợ tốt nhất cho người học phát triển sự nghiệp của mình. 
+
+Sinh viên theo học chương trình có thể tốt nghiệp đại học trong thời gian 4 năm, bao gồm Cử nhân kỹ thuật, Cử nhân khoa học (ngành Hóa học), Cử nhân nhóm ngành Kinh tế-Quản lý và Cử nhân ngành Ngôn ngữ Anh. 
+
+Tuy nhiên, hầu hết sinh viên của Trường đều lựa chọn Chương trình tích hợp (5,5 năm) hoặc (5 năm) với mong muốn có được các kiến thức chuyên môn sâu, năng lực chuyên môn vững chắc để trở thành các kỹ sư, chuyên gia kỹ thuật, nhà quản lý, doanh nhân, giảng viên đại học, nhà nghiên cứu, vv. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đặc điểm chung là các chương trình đào tạo được xây dựng theo chuẩn quốc tế, định hướng ngành rộng, cung cấp các kiến thức nền tảng và cốt lõi, chú trọng các hoạt động nghiên cứu, sáng tạo và khả năng thích ứng của người học trong môi trường quốc tế. 
+
+Chương trình đào tạo Cử nhân kỹ thuật có mục tiêu và nội dung được xây dựng theo hướng kiến thức nền tảng cơ bản, kiến thức cơ sở chuyên môn vững chắc để có thể thích ứng tốt với lĩnh vực rộng của ngành học, chú trọng đến năng lực thiết kế và phát triển hệ thống, sản phẩm, giải pháp kỹ thuật. Chương trình chuyển tiếp từ Cử nhân kỹ thuật lên Kỹ sư gồm các kiến thức chuyên môn sâu theo lĩnh vực ứng dụng của ngành học. 
+
+Các chương trình tiên tiến được giảng dạy bằng tiếng Anh với các ngành: Kỹ thuật Cơ điện tử; Kỹ thuật Ô tô; Khoa học và Kỹ thuật vật liệu; Công nghệ thông tin (ICT); Kỹ thuật Điều khiển, tự động hóa và hệ thống điện; Kỹ thuật Điện tử-Viễn thông và Kỹ thuật y sinh. 
+
+
+
+
+
+TT | Tên ngành/chương trình đào tạo | Mã xét tuyển | Chương trình đào tạo (Liên hệ Khoa/Viện hoặc Tải về PDF)
+1 | Kỹ thuật Cơ điện tử | ME1 | Chi tiết - TẢI VỀ PDF
+2 | Kỹ thuật Cơ khí | ME2 | Chi tiết - TẢI VỀ PDF
+3 | Kỹ thuật Ô tô | TE1 | Chi tiết - TẢI VỀ PDF
+4 | Kỹ thuật Cơ khí động lực | TE2 | Chi tiết - TẢI VỀ PDF
+5 | Kỹ thuật Hàng không | TE3 | Chi tiết - TẢI VỀ PDF
+6 | Chương trình tiên tiến Cơ điện tử | ME-E1 | Chi tiết - TẢI VỀ PDF
+7 | Chương trình tiên tiến Kỹ thuật Ô tô | TE-E2 | Chi tiết - TẢI VỀ PDF
+8 | Kỹ thuật Điện | EE1 | Chi tiết - TẢI VỀ PDF
+9 | Kỹ thuật Điều khiển và Tự động hóa | EE2 | Chi tiết - TẢI VỀ PDF
+10 | Chương trình tiên tiến Điều khiển-Tự động hóa và Hệ thống điện | EE-E8 | Chi tiết - TẢI VỀ PDF
+11 | Kỹ thuật Điện tử - Viễn thông | ET1 | Chi tiết - TẢI VỀ PDF
+12 | Chương trình tiên tiến Điện tử - Viễn thông | ET-E4 | Chi tiết - TẢI VỀ PDF
+13 | Chương trình tiên tiến Kỹ thuật Y sinh | ET-E5 | Chi tiết - TẢI VỀ PDF
+14 | Chương trình đào tạo Hệ thống nhúng thông minh và IoT | ET-E9 | Chi tiết - TẢI VỀ PDF
+15 | CNTT: Khoa học Máy tính | IT1 | Chi tiết - TẢI VỀ PDF
+16 | CNTT: Kỹ thuật Máy tính | IT2 | Chi tiết - TẢI VỀ PDF
+17 | Chương trình tiên tiến Khoa học Dữ liệu và Trí tuệ Nhân tạo | IT-E10 | Chi tiết - TẢI VỀ PDF
+18 | Công nghệ thông tin Việt-Nhật | IT-E6 | Chi tiết - TẢI VỀ PDF
+19 | Công nghệ thông tin Global ICT | IT-E7 | Chi tiết - TẢI VỀ PDF
+20 | Toán-Tin | MI1 | Chi tiết - TẢI VỀ PDF
+21 | Hệ thống thông tin quản lý | MI2 | Chi tiết - TẢI VỀ PDF
+22 | Kỹ thuật Hóa học | CH1 | Chi tiết - TẢI VỀ PDF
+23 | Hóa học | CH2 | Chi tiết - TẢI VỀ PDF
+24 | Kỹ thuật in | CH3 | Chi tiết - TẢI VỀ PDF
+25 | Chương trình tiên tiến Kỹ thuật Hóa dược | CH-E11 | Chi tiết - TẢI VỀ PDF
+26 | Kỹ thuật Sinh học | BF1 | Chi tiết - TẢI VỀ PDF
+27 | Kỹ thuật Thực phẩm | BF2 | Chi tiết - TẢI VỀ PDF
+28 | Chương trình tiên tiến Kỹ thuật Thực phẩm | BF-E12 | Chi tiết - TẢI VỀ PDF
+29 | Kỹ thuật Môi trường | EV1 | Chi tiết - TẢI VỀ PDF
+30 | Kỹ thuật Vật liệu | MS1 | Chi tiết - TẢI VỀ PDF
+31 | Chương trình tiên tiến Kỹ thuật Vật liệu (Vật liệu thông minh và Nano) | MS-E3 | Chi tiết - TẢI VỀ PDF
+32 | Kỹ thuật Nhiệt | HE1 | Chi tiết - TẢI VỀ PDF
+33 | Kỹ thuật Dệt - May | TX1 | Chi tiết - TẢI VỀ PDF
+34 | Vật lý kỹ thuật | PH1 | Chi tiết - TẢI VỀ PDF
+35 | Kỹ thuật hạt nhân | PH2 | Chi tiết - TẢI VỀ PDF
+36 | Công nghệ giáo dục | ED2 | Chi tiết - TẢI VỀ PDF
+37 | Kinh tế công nghiệp | EM1 | Chi tiết - TẢI VỀ PDF
+38 | Quản lý công nghiệp | EM2 | Chi tiết - TẢI VỀ PDF
+39 | Quản trị kinh doanh | EM3 | Chi tiết - TẢI VỀ PDF
+40 | Kế toán | EM4 | Chi tiết - TẢI VỀ PDF
+41 | Tài chính - Ngân hàng | EM5 | Chi tiết - TẢI VỀ PDF
+42 | Chuyên ngành tiên tiến Phân tích Kinh doanh | EM-E13 | Chi tiết - TẢI VỀ PDF
+43 | Tiếng Anh Khoa học Kỹ thuật  Công nghệ | FL1 | Chi tiết - TẢI VỀ PDF
+44 | Tiếng Anh chuyên nghiệp Quốc tế | FL2 | Chi tiết - TẢI VỀ PDF
+
+
+
+
+
+
+
+TT | Tên chương trình đào tạo | Mã xét tuyển
+1 | Cơ điện tử - ĐH Nagaoka (Nhật Bản) - Chương trình đào tạo chi tiết | ME-NUT
+2 | Cơ khí-Chế tạo máy - ĐH Griffith (Úc) - Chương trình đào tạo chi tiết | ME-GU
+3 | Cơ điện tử - ĐH Leibniz Hannover (Đức) - Chương trình đào tạo chi tiết | ME-LUH
+4 | Điện tử-Viễn thông - ĐH Leibniz Hannover (Đức) - Chương trình đào tạo chi tiết | ET-LUH
+5 | Công nghệ thông tin - ĐH La Trobe (Úc) - Chương trình đào tạo chi tiết | IT-LTU
+6 | Công nghệ thông tin - ĐH Victoria (New Zealand) - Chương trình đào tạo chi tiết | IT-VUW
+7 | Hệ thống thông tin - ĐH Grenoble (Pháp) - Chương trình đào tạo chi tiết | IT-GINP
+8 | Quản trị kinh doanh - ĐH Victoria (New Zealand) - Chương trình đào tạo chi tiết | EM-VUW
+9 | Quản lý công nghiệp-Logistics và Quản lý chuỗi cung ứng - ĐH Northampton (Anh) - Chương trình đào tạo chi tiết | EM-NU
+10 | Quản trị kinh doanh - ĐH Troy (Hoa Kỳ) - Chương trình đào tạo chi tiết | TROY-BA
+11 | Khoa học máy tính - ĐH Troy (Hoa Kỳ) - Chương trình đào tạo chi tiết | TROY-IT
+
+
+
+
+Chat trực tuyến bằng cách: Truy cập Link: m.me/tsdhbk Hoặc quét mã QR CODE bằng Camera/ứng dụng trên điện thoại: | QR Code
+
+
+
+
+
+
+
+Lưu tin 
+
+Bình luận 
+
+
+
+
+
+
+
+Chia sẻ 
+
+
+
+
+

@@ -1,0 +1,266 @@
+Cách tính điểm xét tuyển ĐHBK Hà Nội năm 2022 21-09-2022 
+
+
+
+Theo đề án tuyển sinh, năm 2022, Trường ĐHBK Hà Nội có 03 phương thức xét tuyển, bao gồm: 1/ Xét tuyển tài năng (Xét tuyển thẳng); 2/ Xét tuyển theo kết quả Kỳ thi đánh giá tư duy; 3/ Xét tuyển theo kết quả Kỳ thi tốt nghiệp THPT. Trong đó, phương thức xét tuyển theo kết quả Kỳ thi đánh giá tư duy chiếm đa số với 50-60 tổng chỉ tiêu toàn trường. 
+
+
+
+Kỳ thi đánh giá tư duy diễn ra duy nhất một ngày vào 15/7 với tổng số hơn 7000 thí sinh tham dự. Về cấu trúc, bài thi tổ hợp của Kỳ thi diễn ra trong 270 phút, gồm hai phần: Phần bắt buộc (Toán và Đọc hiểu  120 phút), Phần tự chọn (Tự chọn Khoa học tự nhiên  90 phút; hoặc Tự chọn Tiếng Anh  60 phút). Theo đó, các tổ hợp xét tuyển tương ứng với bài thi đánh giá tư duy là: 
+
+: Toán - Đọc hiểu - Khoa học tự nhiên - Tiếng Anh 
+
+: Toán - Đọc hiểu - Khoa học tự nhiên 
+
+: Toán - Đọc hiểu - Tiếng Anh 
+
+ Thí sinh xét tuyển bằng kết quả của Bài thi đánh giá tư duy tính điểm theo công thức như sau: 
+
+Tổ hợp | Cách tính điểm xét | Thang điểm
+K00 | Điểm Xét tuyển  (Điểm Toán  Điểm Đọc hiểu  Điểm KHTN  Điểm Tiếng Anh)0.75  Điểm ƯTXT (Đối tượng  Khu vực) | 30
+K01 | Điểm Xét tuyển  Điểm Toán  Điểm Đọc hiểu  Điểm KHTN  Điểm ƯTXT (Đối tượng  Khu vực) | 30
+K02 | Điểm Xét tuyển  Điểm Toán  Điểm Đọc Hiểu  Điểm Tiếng Anh  Điểm ƯTXT (Đối tượng  Khu vực) | 30
+
+Lưu ý: Điểm tiếng Anh  MAX (Điểm thi tiếng Anh tư duy, Điểm quy đổi tiếng Anh nếu có) 
+
+ Thí sinh xét tuyển bằng kết quả Kỳ thi tốt nghiệp THPT sử dụng tổ hợp xét tuyển , cách tính điểm xét tuyển như sau: 
+
+Điểm Xét tuyển  (Môn 1  Môn 2  Môn 3)  Điểm ƯTXT (Đối tượng  Khu vực)
+
+Ví dụ, thí sinh tham gia Kỳ thi Tốt nghiệp THPT năm 2022, sử dụng tổ hợp A00 xét tuyển vào ngành Kế toán, Mã xét tuyển EM4y, có kết quả thi là: Môn Toán: 9 điểm, Môn Lý: 9.5 điểm, Môn Hóa: 6.25 điểm, không có điểm ưu tiên khu vực hoặc đối tượng, thì tổng điểm xét tuyển là: 
+
+9  9.5  6.25  24.75 điểm 
+
+ Thí sinh xét tuyển bằng kết quả Kỳ thi tốt nghiệp THPT sử dụng tổ hợp xét tuyển , cách tính điểm xét tuyển như sau: 
+
+Điểm Xét tuyển  (Môn 1  Môn 2  Môn 3  Môn chính) 0.75  Điểm ƯTXT (Đối tượng  Khu vực)
+
+Ví dụ, thí sinh tham gia Kỳ thi Tốt nghiệp THPT năm 2021, sử dụng tổ hợp A00 xét tuyển vào ngành Kỹ thuật Vật liệu, Mã xét tuyển MS1y, Môn Toán là môn chính, có kết quả thi là: Môn Toán: 8.75 điểm, Môn Lý: 9 điểm, Môn Hóa: 9 điểm, điểm ưu tiên là 0.25, thì tổng điểm xét tuyển là: 
+
+8.75 x 2  9  9) x 0.75  0.25  26.88 
+
+
+
+Năm 2022, không có ngành/chương trình đào tạo nào của ĐHBK Hà Nội sử dụng đến tiêu chí phụ để xét tuyển. Tuy nhiên, thí sinh lưu ý ngưỡng đảm bảo chất lượng đầu vào (điều kiện học bạ) của ĐHBK Hà Nội đối với từng phương thức xét tuyển. 
+
+Thí sinh có thể xét tuyển bằng cả kết quả Kỳ thi tốt nghiệp THPT và Bài Kiểm tra tư duy do ĐHBK Hà Nội tổ chức và đăng ký nguyện vọng trên hệ thống xét tuyển chung của Bộ Giáo dục-Đào tạo. 
+
+Thí sinh tham khảo các mã xét tuyển vào ngành/chương trình đào tạo của ĐHBK Hà Nội sử dụng các tổ hợp xét tuyển có hoặc không có môn chính tại bảng dưới đây: 
+
+TT | Tên ngành | Chỉ tiêu chung | Mã phương thức xét tuyển | Phương thức xét tuyển | Chỉ tiêu xét tuyển | Tổ hợp xét tuyển 1 | Tổ hợp xét tuyển 2 | Tổ hợp xét tuyển 3
+Tổ hợp môn | Môn chính | Tổ hợp môn | Môn chính | Tổ hợp môn | Môn chính
+1 | Kỹ thuật Sinh học | 120 | BF1 | XTTN | 36 |  |  |  |  |  | 
+BF1x | ĐGTD | 48 | K00 |  | K01 |  |  | 
+BF1y | THPT | 36 | A00 | Toán | B00 | Toán | D07 | Toán
+2 | Kỹ thuật Thực phẩm | 200 | BF2 | XTTN | 60 |  |  |  |  |  | 
+BF2x | ĐGTD | 80 | K00 |  | K01 |  |  | 
+BF2y | THPT | 60 | A00 | Toán | B00 | Toán | D07 | Toán
+3 | Kỹ thuật Thực phẩm (CT tiên tiến) | 80 | BF-E12 | XTTN | 16 |  |  |  |  |  | 
+BF-E12x | ĐGTD | 40 | K00 |  | K01 |  | K02 | 
+BF-E12y | THPT | 24 | A00 | Toán | B00 | Toán | D07 | Toán
+4 | Kỹ thuật Hoá học | 600 | CH1 | XTTN | 60 |  |  |  |  |  | 
+CH1x | ĐGTD | 240 | K00 |  | K01 |  |  | 
+CH1y | THPT | 300 | A00 | Toán | B00 | Toán | D07 | Toán
+5 | Hoá học | 120 | CH2 | XTTN | 24 |  |  |  |  |  | 
+CH2x | ĐGTD | 60 | K00 |  | K01 |  |  | 
+CH2y | THPT | 36 | A00 | Toán | B00 | Toán | D07 | Toán
+6 | Kỹ thuật in | 50 | CH3 | XTTN | 2 |  |  |  |  |  | 
+CH3x | ĐGTD | 18 | K00 |  | K01 |  |  | 
+CH3y | THPT | 30 | A00 | Toán | B00 | Toán | D07 | Toán
+7 | Kỹ thuật Hóa dược (CT tiên tiến) | 80 | CH-E11 | XTTN | 24 |  |  |  |  |  | 
+CH-E11x | ĐGTD | 32 | K00 |  | K01 |  | K02 | 
+CH-E11y | THPT | 24 | A00 | Toán | B00 | Toán | D07 | Toán
+8 | Công nghệ giáo dục | 60 | ED2 | XTTN | 6 |  |  |  |  |  | 
+ED2x | ĐGTD | 30 | K00 |  | K01 |  |  | 
+ED2y | THPT | 24 | A00 |  | A01 |  | D01 | 
+9 | Kỹ thuật Điện | 220 | EE1 | XTTN | 44 |  |  |  |  |  | 
+EE1x | ĐGTD | 88 | K00 |  | K01 |  |  | 
+EE1y | THPT | 88 | A00 | Toán | A01 | Toán |  | 
+10 | Kỹ thuật Điều khiển - Tự động hoá | 500 | EE2 | XTTN | 100 |  |  |  |  |  | 
+EE2x | ĐGTD | 250 | K00 |  | K01 |  |  | 
+EE2y | THPT | 150 | A00 | Toán | A01 | Toán |  | 
+11 | Hệ thống điện và năng lượng tái tạo (CT tiên tiến) | 50 | EE-E18 | XTTN | 10 |  |  |  |  |  | 
+EE-E18x | ĐGTD | 25 | K00 |  | K01 |  | K02 | 
+EE-E18y | THPT | 15 | A00 | Toán | A01 | Toán |  | 
+12 | Kỹ thuật Điều khiển - Tự động hoá (CT tiên tiến) | 100 | EE-E8 | XTTN | 20 |  |  |  |  |  | 
+EE-E8x | ĐGTD | 50 | K00 |  | K01 |  | K02 | 
+EE-E8y | THPT | 30 | A00 | Toán | A01 | Toán |  | 
+13 | Tin học công nghiệp và Tự động hóa (Chương trình Việt - Pháp PFIEV) | 35 | EE-EP | XTTN | 7 |  |  |  |  |  | 
+EE-EPx | ĐGTD | 14 | K00 |  | K01 |  |  | 
+EE-EPy | THPT | 14 | A00 | Toán | A01 | Toán | D29 | Toán
+14 | Kinh tế công nghiệp | 60 | EM1 | XTTN | 12 |  |  |  |  |  | 
+EM1x | ĐGTD | 30 | K00 |  | K01 |  | K02 | 
+EM1y | THPT | 18 | A00 |  | A01 |  | D01 | Toán
+15 | Quản lý công nghiệp | 80 | EM2 | XTTN | 16 |  |  |  |  |  | 
+EM2x | ĐGTD | 40 | K00 |  | K01 |  | K02 | 
+EM2y | THPT | 24 | A00 |  | A01 |  | D01 | Toán
+16 | Quản trị kinh doanh | 120 | EM3 | XTTN | 24 |  |  |  |  |  | 
+EM3x | ĐGTD | 60 | K00 |  | K01 |  | K02 | 
+EM3y | THPT | 36 | A00 |  | A01 |  | D01 | Toán
+17 | Kế toán | 80 | EM4 | XTTN | 16 |  |  |  |  |  | 
+EM4x | ĐGTD | 40 | K00 |  | K01 |  | K02 | 
+EM4y | THPT | 24 | A00 |  | A01 |  | D01 | Toán
+18 | Tài chính - Ngân hàng | 60 | EM5 | XTTN | 12 |  |  |  |  |  | 
+EM5x | ĐGTD | 30 | K00 |  | K01 |  | K02 | 
+EM5y | THPT | 18 | A00 |  | A01 |  | D01 | Toán
+19 | Phân tích kinh doanh (CT tiên tiến) | 80 | EM-E13 | XTTN | 24 |  |  |  |  |  | 
+EM-E13x | ĐGTD | 40 | K00 |  | K01 |  | K02 | 
+EM-E13y | THPT | 16 | D07 |  | A01 |  | D01 | Toán
+20 | Logistics và Quản lý chuỗi cung ứng (CT tiên tiến) | 120 | EM-E14 | XTTN | 36 |  |  |  |  |  | 
+EM-E14x | ĐGTD | 60 | K00 |  | K01 |  | K02 | 
+EM-E14y | THPT | 24 | D07 |  | A01 |  | D01 | Toán
+21 | Kỹ thuật Điện tử - Viễn thông | 480 | ET1 | XTTN | 96 |  |  |  |  |  | 
+ET1x | ĐGTD | 240 | K00 |  | K01 |  |  | 
+ET1y | THPT | 144 | A00 | Toán | A01 | Toán |  | 
+22 | Kỹ thuật Y sinh (mới) | 80 | ET2 | XTTN | 16 |  |  |  |  |  | 
+ET2x | ĐGTD | 32 | K00 |  | K01 |  |  | 
+ET2y | THPT | 32 | A00 | Toán | A01 | Toán | B00 | Toán
+23 | Truyền thông số và Kỹ thuật đa phương tiện (CT tiên tiến) | 40 | ET-E16 | XTTN | 12 |  |  |  |  |  | 
+ET-E16x | ĐGTD | 20 | K00 |  | K01 |  | K02 | 
+ET-E16y | THPT | 8 | A00 | Toán | A01 | Toán |  | 
+24 | Kỹ thuật Điện tử - Viễn thông (CT tiên tiến) | 60 | ET-E4 | XTTN | 12 |  |  |  |  |  | 
+ET-E4x | ĐGTD | 30 | K00 |  | K01 |  | K02 | 
+ET-E4y | THPT | 18 | A00 | Toán | A01 | Toán |  | 
+25 | Kỹ thuật Y sinh (CT tiên tiến) | 40 | ET-E5 | XTTN | 8 |  |  |  |  |  | 
+ET-E5x | ĐGTD | 20 | K00 |  | K01 |  | K02 | 
+ET-E5y | THPT | 12 | A00 | Toán | A01 | Toán |  | 
+26 | Hệ thống nhúng thông minh và IoT (CT tiên tiến) | 60 | ET-E9 | XTTN | 12 |  |  |  |  |  | 
+ET-E9x | ĐGTD | 30 | K00 |  | K01 |  |  | 
+ET-E9y | THPT | 18 | A00 | Toán | A01 | Toán | D28 | Toán
+27 | Điện tử - Viễn thông - hợp tác với ĐH Leibniz Hannover (Đức) | 40 | ET-LUH | XTTN | 4 |  |  |  |  |  | 
+ET-LUHx | ĐGTD | 24 | K00 |  | K01 |  | K02 | 
+ET-LUHy | THPT | 12 | A00 | Toán | A01 | Toán | D26 | Toán
+28 | Kỹ thuật Môi trường | 120 | EV1 | XTTN | 6 |  |  |  |  |  | 
+EV1x | ĐGTD | 42 | K00 |  | K01 |  |  | 
+EV1y | THPT | 72 | A00 | Toán | B00 | Toán | D07 | Toán
+29 | Quản lý tài nguyên và môi trường | 80 | EV2 | XTTN | 4 |  |  |  |  |  | 
+EV2x | ĐGTD | 28 | K00 |  | K01 |  |  | 
+EV2y | THPT | 48 | A00 | Toán | B00 | Toán | D07 | Toán
+30 | Tiếng Anh KHKT và Công nghệ | 150 | FL1 | XTTN | 15 |  |  |  |  |  | 
+FL1x | ĐGTD | 45 | K02 | Anh |  |  |  | 
+FL1y | THPT | 90 | D01 | Anh |  |  |  | 
+31 | Tiếng Anh chuyên nghiệp quốc tế | 70 | FL2 | XTTN | 7 |  |  |  |  |  | 
+FL2x | ĐGTD | 21 | K02 | Anh |  |  |  | 
+FL2y | THPT | 42 | D01 | Anh |  |  |  | 
+32 | Kỹ thuật Nhiệt | 250 | HE1 | XTTN | 12 |  |  |  |  |  | 
+HE1x | ĐGTD | 113 | K00 |  | K01 |  |  | 
+HE1y | THPT | 125 | A00 | Toán | A01 | Toán |  | 
+33 | CNTT: Khoa học Máy tính | 300 | IT1 | XTTN | 150 |  |  |  |  |  | 
+IT1x | ĐGTD | 150 | K00 |  | K01 |  |  | 
+ | THPT | 0 |  |  |  |  |  | 
+34 | CNTT: Kỹ thuật Máy tính | 200 | IT2 | XTTN | 60 |  |  |  |  |  | 
+IT2x | ĐGTD | 80 | K00 |  | K01 |  |  | 
+IT2y | THPT | 60 | A00 | Toán | A01 | Toán |  | 
+35 | Khoa học dữ liệu và Trí tuệ nhân tạo (CT tiên tiến) | 100 | IT-E10 | XTTN | 50 |  |  |  |  |  | 
+IT-E10x | ĐGTD | 50 | K00 |  | K01 |  | K02 | 
+ | THPT | 0 |  |  |  |  |  | 
+36 | An toàn không gian số - Cyber security (CT tiên tiến) | 40 | IT-E15 | XTTN | 20 |  |  |  |  |  | 
+IT-E15x | ĐGTD | 20 | K00 |  | K01 |  | K02 | 
+ | THPT | 0 |  |  |  |  |  | 
+37 | Công nghệ thông tin (Việt - Nhật) | 240 | IT-E6 | XTTN | 72 |  |  |  |  |  | 
+IT-E6x | ĐGTD | 96 | K00 |  | K01 |  |  | 
+IT-E6y | THPT | 72 | A00 | Toán | A01 | Toán | D28 | Toán
+38 | Công nghệ thông tin (Global ICT) | 100 | IT-E7 | XTTN | 50 |  |  |  |  |  | 
+IT-E7x | ĐGTD | 50 | K00 |  | K01 |  | K02 | 
+ | THPT | 0 |  |  |  |  |  | 
+39 | Công nghệ thông tin (Việt - Pháp) | 40 | IT-EP | XTTN | 20 |  |  |  |  |  | 
+IT-EPx | ĐGTD | 20 | K00 |  | K01 |  |  | 
+ | THPT | 0 |  |  |  |  |  | 
+40 | Kỹ thuật Cơ điện tử | 300 | ME1 | XTTN | 45 |  |  |  |  |  | 
+ME1x | ĐGTD | 135 | K00 |  | K01 |  |  | 
+ME1y | THPT | 120 | A00 | Toán | A01 | Toán |  | 
+41 | Kỹ thuật Cơ khí | 500 | ME2 | XTTN | 25 |  |  |  |  |  | 
+ME2x | ĐGTD | 225 | K00 |  | K01 |  |  | 
+ME2y | THPT | 250 | A00 | Toán | A01 | Toán |  | 
+42 | Kỹ thuật Cơ điện tử (CT tiên tiến) | 120 | ME-E1 | XTTN | 24 |  |  |  |  |  | 
+ME-E1x | ĐGTD | 60 | K00 |  | K01 |  | K02 | 
+ME-E1y | THPT | 36 | A00 | Toán | A01 | Toán |  | 
+43 | Cơ khí - Chế tạo máy - hợp tác với ĐH Griffith (Úc) | 40 | ME-GU | XTTN | 4 |  |  |  |  |  | 
+ME-GUx | ĐGTD | 16 | K00 |  | K01 |  | K02 | 
+ME-GUy | THPT | 20 | A00 | Toán | A01 | Toán |  | 
+44 | Cơ điện tử - hợp tác với ĐH Leibniz Hannover (Đức) | 40 | ME-LUH | XTTN | 4 |  |  |  |  |  | 
+ME-LUHx | ĐGTD | 16 | K00 |  | K01 |  | K02 | 
+ME-LUHy | THPT | 20 | A00 | Toán | A01 | Toán | D26 | Toán
+45 | Cơ điện tử - hợp tác với ĐHCN Nagaoka (Nhật Bản) | 100 | ME-NUT | XTTN | 20 |  |  |  |  |  | 
+ME-NUTx | ĐGTD | 30 | K00 |  | K01 |  | K02 | 
+ME-NUTy | THPT | 50 | A00 | Toán | A01 | Toán | D28 | Toán
+46 | Toán - Tin | 120 | MI1 | XTTN | 36 |  |  |  |  |  | 
+MI1x | ĐGTD | 48 | K00 |  | K01 |  |  | 
+MI1y | THPT | 36 | A00 | Toán | A01 | Toán |  | 
+47 | Hệ thống thông tin quản lý | 60 | MI2 | XTTN | 18 |  |  |  |  |  | 
+MI2x | ĐGTD | 24 | K00 |  | K01 |  |  | 
+MI2y | THPT | 18 | A00 | Toán | A01 | Toán |  | 
+48 | Kỹ thuật Vật liệu | 260 | MS1 | XTTN | 13 |  |  |  |  |  | 
+MS1x | ĐGTD | 117 | K00 |  | K01 |  |  | 
+MS1y | THPT | 130 | A00 | Toán | A01 | Toán | D07 | Toán
+49 | KHKT Vật liệu (CT tiên tiến) | 60 | MS-E3 | XTTN | 3 |  |  |  |  |  | 
+MS-E3x | ĐGTD | 27 | K00 |  | K01 |  | K02 | 
+MS-E3y | THPT | 30 | A00 | Toán | A01 | Toán |  | 
+50 | Vật lý kỹ thuật | 160 | PH1 | XTTN | 8 |  |  |  |  |  | 
+PH1x | ĐGTD | 72 | K00 |  | K01 |  |  | 
+PH1y | THPT | 80 | A00 | Toán | A01 | Toán |  | 
+51 | Kỹ thuật hạt nhân | 40 | PH2 | XTTN | 2 |  |  |  |  |  | 
+PH2x | ĐGTD | 18 | K00 |  | K01 |  |  | 
+PH2y | THPT | 20 | A00 | Toán | A01 | Toán | A02 | Toán
+52 | Vật lý y khoa | 50 | PH3 | XTTN | 2 |  |  |  |  |  | 
+PH3x | ĐGTD | 23 | K00 |  | K01 |  |  | 
+PH3y | THPT | 25 | A00 | Toán | A01 | Toán | A02 | Toán
+53 | Kỹ thuật Ô tô | 200 | TE1 | XTTN | 40 |  |  |  |  |  | 
+TE1x | ĐGTD | 100 | K00 |  | K01 |  |  | 
+TE1y | THPT | 60 | A00 | Toán | A01 | Toán |  | 
+54 | Kỹ thuật Cơ khí động lực | 90 | TE2 | XTTN | 9 |  |  |  |  |  | 
+TE2x | ĐGTD | 36 | K00 |  | K01 |  |  | 
+TE2y | THPT | 45 | A00 | Toán | A01 | Toán |  | 
+55 | Kỹ thuật Hàng không | 50 | TE3 | XTTN | 5 |  |  |  |  |  | 
+TE3x | ĐGTD | 20 | K00 |  | K01 |  |  | 
+TE3y | THPT | 25 | A00 | Toán | A01 | Toán |  | 
+56 | Kỹ thuật Ô tô (CT tiên tiến) | 80 | TE-E2 | XTTN | 16 |  |  |  |  |  | 
+TE-E2x | ĐGTD | 40 | K00 |  | K01 |  | K02 | 
+TE-E2y | THPT | 24 | A00 | Toán | A01 | Toán |  | 
+57 | Cơ khí hàng không (Chương trình Việt - Pháp PFIEV) | 35 | TE-EP | XTTN | 3 |  |  |  |  |  | 
+TE-EPx | ĐGTD | 14 | K00 |  | K01 |  |  | 
+TE-EPy | THPT | 18 | A00 | Toán | A01 | Toán | D29 | Toán
+58 | Quản trị kinh doanh - hợp tác với ĐH Troy (Hoa Kỳ) | 80 | TROY-BA | XTTN | 4 |  |  |  |  |  | 
+TROY-BAx | ĐGTD | 36 | K00 |  | K01 |  | K02 | 
+TROY-BAy | THPT | 40 | A00 |  | A01 |  | D01 | 
+59 | Khoa học máy tính - hợp tác với ĐH Troy (Hoa Kỳ) | 80 | TROY-IT | XTTN | 4 |  |  |  |  |  | 
+TROY-ITx | ĐGTD | 36 | K00 |  | K01 |  | K02 | 
+TROY-ITy | THPT | 40 | A00 |  | A01 |  | D01 | 
+60 | Công nghệ Dệt - May | 220 | TX1 | XTTN | 11 |  |  |  |  |  | 
+TX1x | ĐGTD | 77 | K00 |  | K01 |  |  | 
+TX1y | THPT | 132 | A00 | Toán | A01 | Toán | D07 | Toán
+
+
+
+
+
+
+
+XTTN: Phương thức xét tuyển tài năng 
+
+ĐGTD: Phương thức xét tuyển dựa theo kết quả kỳ thi đánh giá tư duy 
+
+THPT: Phương thức xét tuyển dựa theo kết quả thi tốt nghiệp THPT 
+
+
+
+Xem thêm: 
+
+
+
+Lưu tin 
+
+Bình luận 
+
+
+
+
+
+
+
+Chia sẻ 
+
+
+
+
+

@@ -1,0 +1,15 @@
+[2024-11-24T03:50:31.154+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_reddit_pipeline.reddit_extraction manual__2024-11-24T03:50:30.077190+00:00 [queued]>
+[2024-11-24T03:50:31.161+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_reddit_pipeline.reddit_extraction manual__2024-11-24T03:50:30.077190+00:00 [queued]>
+[2024-11-24T03:50:31.161+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-11-24T03:50:31.171+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): reddit_extraction> on 2024-11-24 03:50:30.077190+00:00
+[2024-11-24T03:50:31.175+0000] {standard_task_runner.py:57} INFO - Started process 146 to run task
+[2024-11-24T03:50:31.178+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_reddit_pipeline', 'reddit_extraction', 'manual__2024-11-24T03:50:30.077190+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/reddit_dag.py', '--cfg-path', '/tmp/tmppsby18x2']
+[2024-11-24T03:50:31.180+0000] {standard_task_runner.py:85} INFO - Job 16: Subtask reddit_extraction
+[2024-11-24T03:50:31.216+0000] {task_command.py:415} INFO - Running <TaskInstance: etl_reddit_pipeline.reddit_extraction manual__2024-11-24T03:50:30.077190+00:00 [running]> on host ed5257f0374c
+[2024-11-24T03:50:31.277+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Yusuf Ganiyu' AIRFLOW_CTX_DAG_ID='etl_reddit_pipeline' AIRFLOW_CTX_TASK_ID='reddit_extraction' AIRFLOW_CTX_EXECUTION_DATE='2024-11-24T03:50:30.077190+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-24T03:50:30.077190+00:00'
+[2024-11-24T03:50:31.279+0000] {logging_mixin.py:151} WARNING - Version 7.7.1 of praw is outdated. Version 7.8.1 was released Friday October 25, 2024.
+[2024-11-24T03:50:31.280+0000] {logging_mixin.py:151} INFO - connected to reddit!
+[2024-11-24T03:50:32.619+0000] {python.py:194} INFO - Done. Returned value was: /opt/airflow/data/output/reddit_20241124.csv
+[2024-11-24T03:50:32.636+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=etl_reddit_pipeline, task_id=reddit_extraction, execution_date=20241124T035030, start_date=20241124T035031, end_date=20241124T035032
+[2024-11-24T03:50:32.675+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-11-24T03:50:32.690+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

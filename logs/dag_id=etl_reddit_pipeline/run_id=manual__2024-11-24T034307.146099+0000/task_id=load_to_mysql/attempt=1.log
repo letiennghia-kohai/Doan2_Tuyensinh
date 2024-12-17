@@ -1,0 +1,25 @@
+[2024-11-24T03:43:11.758+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_reddit_pipeline.load_to_mysql manual__2024-11-24T03:43:07.146099+00:00 [queued]>
+[2024-11-24T03:43:11.764+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_reddit_pipeline.load_to_mysql manual__2024-11-24T03:43:07.146099+00:00 [queued]>
+[2024-11-24T03:43:11.765+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-11-24T03:43:11.774+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): load_to_mysql> on 2024-11-24 03:43:07.146099+00:00
+[2024-11-24T03:43:11.779+0000] {standard_task_runner.py:57} INFO - Started process 128 to run task
+[2024-11-24T03:43:11.782+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_reddit_pipeline', 'load_to_mysql', 'manual__2024-11-24T03:43:07.146099+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/reddit_dag.py', '--cfg-path', '/tmp/tmpwt873ghi']
+[2024-11-24T03:43:11.784+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask load_to_mysql
+[2024-11-24T03:43:11.820+0000] {task_command.py:415} INFO - Running <TaskInstance: etl_reddit_pipeline.load_to_mysql manual__2024-11-24T03:43:07.146099+00:00 [running]> on host ed5257f0374c
+[2024-11-24T03:43:11.875+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Yusuf Ganiyu' AIRFLOW_CTX_DAG_ID='etl_reddit_pipeline' AIRFLOW_CTX_TASK_ID='load_to_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-11-24T03:43:07.146099+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-24T03:43:07.146099+00:00'
+[2024-11-24T03:43:11.888+0000] {logging_mixin.py:151} INFO - Error connecting to MySQL: 2003 (HY000): Can't connect to MySQL server on 'mysql_container:3307' (111)
+[2024-11-24T03:43:11.889+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/pipelines/mysql_pipeline.py", line 19, in load_data_to_mysql
+    create_table_if_not_exist(connection, table_name)
+  File "/opt/airflow/etls/mysql_etl.py", line 22, in create_table_if_not_exist
+    cursor = connection.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+[2024-11-24T03:43:11.898+0000] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=etl_reddit_pipeline, task_id=load_to_mysql, execution_date=20241124T034307, start_date=20241124T034311, end_date=20241124T034311
+[2024-11-24T03:43:11.907+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 13 for task load_to_mysql ('NoneType' object has no attribute 'cursor'; 128)
+[2024-11-24T03:43:11.914+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-11-24T03:43:11.926+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

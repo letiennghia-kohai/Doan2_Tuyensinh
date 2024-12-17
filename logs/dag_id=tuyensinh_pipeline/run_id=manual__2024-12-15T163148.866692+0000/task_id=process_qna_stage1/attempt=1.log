@@ -1,0 +1,18 @@
+[2024-12-15T16:32:06.022+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tuyensinh_pipeline.process_qna_stage1 manual__2024-12-15T16:31:48.866692+00:00 [queued]>
+[2024-12-15T16:32:06.029+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tuyensinh_pipeline.process_qna_stage1 manual__2024-12-15T16:31:48.866692+00:00 [queued]>
+[2024-12-15T16:32:06.029+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-12-15T16:32:06.044+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): process_qna_stage1> on 2024-12-15 16:31:48.866692+00:00
+[2024-12-15T16:32:06.056+0000] {standard_task_runner.py:57} INFO - Started process 85 to run task
+[2024-12-15T16:32:06.059+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'tuyensinh_pipeline', 'process_qna_stage1', 'manual__2024-12-15T16:31:48.866692+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/tuyensinh_dag.py', '--cfg-path', '/tmp/tmpyem65ugj']
+[2024-12-15T16:32:06.062+0000] {standard_task_runner.py:85} INFO - Job 26: Subtask process_qna_stage1
+[2024-12-15T16:32:06.112+0000] {task_command.py:415} INFO - Running <TaskInstance: tuyensinh_pipeline.process_qna_stage1 manual__2024-12-15T16:31:48.866692+00:00 [running]> on host c2e1e1d4ea8c
+[2024-12-15T16:32:06.191+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='NghiaLT' AIRFLOW_CTX_DAG_ID='tuyensinh_pipeline' AIRFLOW_CTX_TASK_ID='process_qna_stage1' AIRFLOW_CTX_EXECUTION_DATE='2024-12-15T16:31:48.866692+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-15T16:31:48.866692+00:00'
+[2024-12-15T16:33:40.723+0000] {logging_mixin.py:151} INFO - Lỗi khi truy cập https://ts.hust.edu.vn/hoi-dap/co-nhung-nganh-nao-xet-khoi-a02-a: 'NoneType' object has no attribute 'get_text'
+[2024-12-15T16:34:37.468+0000] {logging_mixin.py:151} INFO - Lỗi khi truy cập https://ts.hust.edu.vn/hoi-dap/ngon-ngu-lap-trinh: 'NoneType' object has no attribute 'get_text'
+[2024-12-15T16:40:22.184+0000] {logging_mixin.py:151} INFO - Lỗi khi truy cập https://ts.hust.edu.vn/hoi-dap/dang-ky-kiem-tra-tu-duy-con-gia-han-lan-nua-khong-a: HTTPSConnectionPool(host='ts.hust.edu.vn', port=443): Max retries exceeded with url: /hoi-dap/dang-ky-kiem-tra-tu-duy-con-gia-han-lan-nua-khong-a (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f10c23e4970>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2024-12-15T16:40:46.367+0000] {process_utils.py:131} INFO - Sending 15 to group 85. PIDs of all processes in the group: [85]
+[2024-12-15T16:41:28.978+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 85
+[2024-12-15T16:42:21.569+0000] {taskinstance.py:1630} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-15T16:42:39.209+0000] {logging_mixin.py:151} INFO - Lỗi khi truy cập https://ts.hust.edu.vn/hoi-dap/tin-nhan-xac-nhan-da-nop-giay-xac-nhan-nhap-hoc: Task received SIGTERM signal
+[2024-12-15T16:43:18.409+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=85, name='airflow task ru', status='disk-sleep', started='16:32:05') did not respond to SIGTERM. Trying SIGKILL
+[2024-12-15T16:44:30.667+0000] {process_utils.py:86} INFO - Sending the signal 9 to group 85

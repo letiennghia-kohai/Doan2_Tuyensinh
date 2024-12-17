@@ -1,0 +1,143 @@
+Điểm chuẩn trúng tuyển Đại học chính quy Trường Đại học Bách khoa Hà Nội 2022 16-09-2022 
+
+
+
+Điểm chuẩn Đại học Bách Khoa Hà Nội năm 2022 đã được công bố đến các thí sinh ngày 15/9. 
+
+Đại học Bách khoa Hà Nội đã công bố Đề án tuyển sinh năm 2022. Theo đó, tổng chỉ tiêu tuyển sinh hệ đai học chính quy là 7.990 sinh viên, gồm 3 phương thức tuyển sinh là: (1) Xét tuyển tài năng; (2) Xét tuyển dựa theo kết quả kỳ thi ĐGTD; (3) Xét tuyển dựa theo kết quả thi tốt nghiệp THPT. Điểm chuẩn Đại học Bách Khoa Hà Nội năm 2022 được công bố đến các thí sinh ngày 15/9. 
+
+TT | Tên, mã ngành | Chương trình | Mã ngành | Điểm chuẩn | Tổ hợp môn | Diện XT
+1 | Kỹ thuật sinh học | CTĐT chuẩn | BF1x | 14,5 | K01 | DGTD
+2 | Kỹ thuật sinh học | CTĐT chuẩn | BF1y | 23,25 | A00, B00, B07 | THPT
+3 | Kỹ thuật thực phẩm | CTĐT chuẩn | BF2x | 15,6 | K01 | DGTD
+4 | Kỹ thuật thực phẩm | CTĐT chuẩn | BF2y | 23,35 | A00, B00, B07 | THPT
+5 | Kỹ thuật Thực phẩm (CTTT) | CT tiên tiến | BF-E12x | 15,6 | K01 | DGTD
+6 | Kỹ thuật Thực phẩm (CTTT) | CT tiên tiến | BF-E12y | 23,35 | A00, B00, B07 | THPT
+7 | Kỹ thuật Hóa Học | CTĐT chuẩn | CH1x | 14,05 | K01 | DGTD
+8 | Kỹ thuật Hóa Học | CTĐT chuẩn | CH1y | 23,03 | A00, B00, B07 | THPT
+9 | Hóa học | CTĐT chuẩn | CH2x | 14,05 | K01 | DGTD
+10 | Hóa học | CTĐT chuẩn | CH2y | 23,03 | A00, B00, B07 | THPT
+11 | Kỹ thuật in | CTĐT chuẩn | CH3x | 14,05 | K01 | DGTD
+12 | Kỹ thuật in | CTĐT chuẩn | CH3y | 23,03 | A00, B00, B07 | THPT
+13 | Kỹ thuật Hóa dược (CTTT) | CT tiên tiến | CH-E11x | 15,35 | K01 | DGTD
+14 | Kỹ thuật Hóa dược (CTTT) | CT tiên tiến | CH-E11y | 23,7 | A00, B00, B07 | THPT
+15 | Công nghệ giáo dục | CTĐT chuẩn | ED2x | 14,5 | K01 | DGTD
+16 | Công nghệ giáo dục | CTĐT chuẩn | ED2y | 23,15 | A00, A01, D01 | THPT
+17 | Kỹ thuật Điện | CTĐT chuẩn | EE1x | 14,4 | K01 | DGTD
+18 | Kỹ thuật Điện | CTĐT chuẩn | EE1y | 23,05 | A00, A01 | THPT
+19 | Kỹ thuật Điều kiển - Tự động hóa | CTĐT chuẩn | EE2x | 17,43 | K01 | DGTD
+20 | Kỹ thuật Điều kiển - Tự động hóa | CTĐT chuẩn | EE2y | 27,61 | A00, A01 | THPT
+21 | Hệ thống điện và năng lượng tái tạo (CTTT) | CT tiên tiến | EE-E18x | 14,4 | K01 | DGTD
+22 | Hệ thống điện và năng lượng tái tạo (CTTT) | CT tiên tiến | EE-E18y | 23,55 | A00, A01 | THPT
+23 | Kỹ thuật Điều khiển - Tự động hóa và Hệ thống điện (CTTT) | CT tiên tiến | EE-E8x | 17,4 | K01 | DGTD
+24 | Kỹ thuật Điều khiển - Tự động hóa và Hệ thống điện (CTTT) | CT tiên tiến | EE-E8y | 25,99 | A00, A01 | THPT
+25 | Tin học công nghiệp và Tự động hóa (Chương trình Việt - Pháp PFIEV) | CT tiên tiến | EE-Epx | 14 | K01 | DGTD
+26 | Tin học công nghiệp và Tự động hóa (Chương trình Việt - Pháp PFIEV) | CT tiên tiến | EE-Epy | 23,99 | A00, A01 | THPT
+27 | Kinh tế công nghiệp | CTĐT chuẩn | EM1x | 14,88 | K01 | DGTD
+28 | Kinh tế công nghiệp | CTĐT chuẩn | EM1y | 24,3 | A00, A01, D01 | THPT
+29 | Quản lý công nghiệp | CTĐT chuẩn | EM2x | 17,67 | K01 | DGTD
+30 | Quản lý công nghiệp | CTĐT chuẩn | EM2y | 23,3 | A00, A01, D01 | THPT
+31 | Quản trị kinh doanh | CTĐT chuẩn | EM3x | 15,1 | K01 | DGTD
+32 | Quản trị kinh doanh | CTĐT chuẩn | EM3y | 25,35 | A00, A01, D01 | THPT
+33 | Kế toán | CTĐT chuẩn | EM4x | 15,23 | K01 | DGTD
+34 | Kế toán | CTĐT chuẩn | EM4y | 25,2 | A00, A01, D01 | THPT
+35 | Tài chính - Ngân hàng | CTĐT chuẩn | EM5x | 14,28 | K01 | DGTD
+36 | Tài chính - Ngân hàng | CTĐT chuẩn | EM5y | 25,2 | A00, A01, D01 | THPT
+37 | Phân tích kinh doanh (CTTT) | CT tiên tiến | EM-E13x | 15,16 | K01 | DGTD
+38 | Phân tích kinh doanh (CTTT) | CT tiên tiến | EM-E13y | 24,18 | A01, D01, D07 | THPT
+39 | Logistics và Quản lý chuỗi cung ứng (CTTT) | CT tiên tiến | EM-E14x | 15,03 | K01 | DGTD
+40 | Logistics và Quản lý chuỗi cung ứng (CTTT) | CT tiên tiến | EM-E14y | 24,51 | A01, D01, D07 | THPT
+41 | Kỹ thuật Điện tử - Viễn thông | CTĐT chuẩn | ET1x | 14,05 | K01 | DGTD
+42 | Kỹ thuật Điện tử - Viễn thông | CTĐT chuẩn | ET1y | 24,5 | A00, A01 | THPT
+43 | Quản lý công nghiệp | CTĐT chuẩn | ET2x | 14,5 | K01 | DGTD
+44 | Kỹ thuật y sinh (mới) | CTĐT chuẩn | ET2y | 23,15 | A00, A01, B00 | THPT
+45 | Truyền thông số và Kỹ thuật đa phương tiện (CTTT) | CT tiên tiến | ET-E16x | 17,73 | K01 | DGTD
+46 | Truyền thông số và Kỹ thuật đa phương tiện (CTTT) | CT tiên tiến | ET-E16y | 24,71 | A00, A01 | THPT
+47 | Kỹ thuật Điện tử - Viên thông (CTTT) | CT tiên tiến | ET-E4x | 16,92 | K01 | DGTD
+48 | Kỹ thuật Điện tử - Viên thông (CTTT) | CT tiên tiến | ET-E4y | 24,19 | A00, A01 | THPT
+49 | Kỹ thuật Y sinh (CTTT) | CT tiên tiến | ET-E5x | 15,25 | K01 | DGTD
+50 | Kỹ thuật Y sinh (CTTT) | CT tiên tiến | ET-E5y | 23,89 | A00, A01 | THPT
+51 | Hệ thống nhúng thông minh và IoT (CTTT) | CT tiên tiến | ET-E9x | 14,78 | K01 | DGTD
+52 | Hệ thống nhúng thông minh và IoT (CTTT) | CT tiên tiến | ET-E9y | 24,14 | A00, A01, D28 | THPT
+53 | Điện tử - Viên thông - ĐH Leibniz Hannover (Đức) | CT HTQT | ET-LUHx | 14,5 | K01 | DGTD
+54 | Điện tử - Viên thông - ĐH Leibniz Hannover (Đức) | CT HTQT | ET-LUHy | 23,15 | A00, A01, D26 | THPT
+55 | Kỹ thuật Môi trường | CTĐT chuẩn | EV1x | 14,05 | K01 | DGTD
+56 | Kỹ thuật Môi trường | CTĐT chuẩn | EV1y | 23,03 | A00, B00, B07 | THPT
+57 | Quản lý tài nguyên và môi trường | CTĐT chuẩn | EV2x | 14 | K01 | DGTD
+58 | Quản lý tài nguyên và môi trường | CTĐT chuẩn | EV2y | 23,03 | A00, B00, B07 | THPT
+59 | Tiếng anh KHKT và Công nghệ | CTĐT chuẩn | FL1y | 23,06 | D01 | THPT
+60 | Tiếng anh chuyên nghiệp quốc tế | CTĐT chuẩn | FL2y | 23,06 | D01 | THPT
+61 | Kỹ thuật Nhiệt | CTĐT chuẩn | HE1x | 14,39 | K01 | DGTD
+62 | Kỹ thuật Nhiệt | CTĐT chuẩn | HE1y | 23,26 | A00, A01 | THPT
+63 | Khoa học Máy tính | CTĐT chuẩn | IT1x | 22,25 | K01 | DGTD
+64 | Kỹ thuật Máy tính | CTĐT chuẩn | IT2x | 21,19 | K01 | DGTD
+65 | Kỹ thuật Máy tính | CTĐT chuẩn | IT2y | 28,29 | A00, A01 | THPT
+66 | Khoa học dữ liệu và Trí tuệ nhân tạo (CTTT) | CT tiên tiến | IT-E10x | 22,68 | K01 | DGTD
+67 | An toàn không gian số - Cyber security (CTTT) | CT tiên tiến | IT-E15x | 20,58 | K01 | DGTD
+68 | Công nghệ thông tin (Việt - Nhật) | CT tiên tiến | IT-E6x | 18,39 | K01 | DGTD
+69 | Công nghệ thông tin (Việt - Nhật) | CT tiên tiến | IT-E6y | 27,25 | A00, A01, D28 | THPT
+70 | Công nghệ thông tin (Global ICT) | CT tiên tiến | IT-E7x | 21,96 | K01 | DGTD
+71 | Công nghệ thông tin (Việt - Pháp) | CT tiên tiến | IT-Epx | 16,26 | K01 | DGTD
+72 | Kỹ thuật Cơ điện tử | CTĐT chuẩn | ME1x | 14,18 | K01 | DGTD
+73 | Kỹ thuật Cơ điện tử | CTĐT chuẩn | ME1y | 26,33 | A00, A01 | THPT
+74 | Kỹ thuật Cơ khí | CTĐT chuẩn | ME2x | 14,18 | K01 | DGTD
+75 | Kỹ thuật Cơ khí | CTĐT chuẩn | ME2y | 23,5 | A00, A01 | THPT
+76 | Kỹ thuật Cơ điện tử (CTTT) | CT tiên tiến | ME-E1x | 14,18 | K01 | DGTD
+77 | Kỹ thuật Cơ điện tử (CTTT) | CT tiên tiến | ME-E1y | 24,28 | A00, A01 | THPT
+78 | Cơ khí - Chế tạo máy - Đh Griffith (Úc) | CT HTQT | ME-Gux | 14 | K01 | DGTD
+79 | Cơ khí - Chế tạo máy - Đh Griffith (Úc) | CT HTQT | ME-Guy | 23,36 | A00, A01 | THPT
+80 | Cơ điện tử - ĐH Leibniz Hannover (Đức) | CT HTQT | ME-LUHx | 14,18 | K01 | DGTD
+81 | Cơ điện tử - ĐH Leibniz Hannover (Đức) | CT HTQT | ME-LUHy | 23,29 | A00, A01, D26 | THPT
+82 | Cơ điện tử - ĐHCN Nagaoka (Nhật Bản) | CT HTQT | ME-NUTx | 14,18 | K01 | DGTD
+83 | Cơ điện tử - ĐHCN Nagaoka (Nhật Bản) | CT HTQT | ME-NUTy | 23,21 | A00, A01, D28 | THPT
+84 | Toán - Tin | CTĐT chuẩn | MI1x | 14,43 | K01 | DGTD
+85 | Toán - Tin | CTĐT chuẩn | MI1y | 26,45 | A00, A01 | THPT
+86 | Hệ thống thông tin quản lý | CTĐT chuẩn | MI2x | 14,44 | K01 | DGTD
+87 | Hệ thống thông tin quản lý | CTĐT chuẩn | MI2y | 26,54 | A00, A01 | THPT
+88 | Kỹ thuật Vật liệu | CTĐT chuẩn | MS1x | 14,25 | K01 | DGTD
+89 | Kỹ thuật Vật liệu | CTĐT chuẩn | MS1y | 23,16 | A00, A01, D07 | THPT
+90 | KHKT Vật liệu (CTTT) | CT tiên tiến | MS-E3x | 14,25 | K01 | DGTD
+91 | KHKT Vật liệu (CTTT) | CT tiên tiến | MS-E3y | 23,16 | A00, A01 | THPT
+92 | Vật lý kỹ thuật | CTĐT chuẩn | PH1x | 14,5 | K01 | DGTD
+93 | Vật lý kỹ thuật | CTĐT chuẩn | PH1y | 23,29 | A00, A01 | THPT
+94 | Kỹ thuật hạt nhân | CTĐT chuẩn | PH2x | 14 | K01 | DGTD
+95 | Kỹ thuật hạt nhân | CTĐT chuẩn | PH2y | 23,29 | A00, A01, A02 | THPT
+96 | Vật lý y khoa | CTĐT chuẩn | PH3x | 14 | K01 | DGTD
+97 | Vật lý y khoa | CTĐT chuẩn | PH3y | 23,29 | A00, A01, A02 | THPT
+98 | Kỹ thuật Ô tô | CTĐT chuẩn | TE1x | 14,04 | K01 | DGTD
+99 | Kỹ thuật Ô tô | CTĐT chuẩn | TE1y | 26,41 | A00, A01 | THPT
+100 | Kỹ thuật Cơ khí động lực | CTĐT chuẩn | TE2x | 14,04 | K01 | DGTD
+101 | Kỹ thuật Cơ khí động lực | CTĐT chuẩn | TE2y | 24,16 | A00, A01 | THPT
+102 | Kỹ thuật Hàng không | CTĐT chuẩn | TE3x | 14,04 | K01 | DGTD
+103 | Kỹ thuật Hàng không | CTĐT chuẩn | TE3y | 24,23 | A00, A01 | THPT
+104 | Kỹ thuật Ô tô (CTTT) | CT tiên tiến | TE-E2x | 14,04 | K01 | DGTD
+105 | Kỹ thuật Ô tô (CTTT) | CT tiên tiến | TE-E2y | 24,06 | A00, A01 | THPT
+106 | Cơ khí hàng không (Chương trình Việt - Pháp PFIEV) | CT tiên tiến | TE-Epx | 14 | K01 | DGTD
+107 | Cơ khí hàng không (Chương trình Việt - Pháp PFIEV) | CT tiên tiến | TE-Epy | 23,55 | A00, A01, D29 | THPT
+108 | Kỹ thuật Dệt - May | CTĐT chuẩn | TX1x | 14,2 | K01 | DGTD
+109 | Công nghệ dệt may | CTĐT chuẩn | TX1y | 23,1 | A00, A01, D07 | THPT
+110 | Quản trị kinh doanh - ĐH Troy (Hoa Kỳ) | CT HTQT | TROY-Bax | 14 | K01 | DGTD
+111 | Quản trị kinh doanh - ĐH Troy (Hoa Kỳ) | CT HTQT | TROY-BAy | 23,4 | A00, A01, D01 | THPT
+112 | Khoa học máy tính - ĐH Troy (Hoa Kỳ) | CT HTQT | TROY-ITx | 14,02 | K01 | DGTD
+113 | Khoa học máy tính - ĐH Troy (Hoa Kỳ) | CT HTQT | TROY-ITy | 25,15 | A00, A01, D01 | THPT
+
+
+
+
+
+Lưu tin 
+
+Bình luận 
+
+
+
+
+
+
+
+Chia sẻ 
+
+
+
+
+

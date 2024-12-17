@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.sh text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.log text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf  
+*.env text eol=lf 
+*.conf text eol=lf 
+logs/scheduler/latest

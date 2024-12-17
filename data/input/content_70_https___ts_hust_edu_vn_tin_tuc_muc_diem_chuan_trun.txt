@@ -1,0 +1,88 @@
+Mức điểm chuẩn trúng tuyển xét tuyển tài năng 2021 (diện 1.3 Hồ sơ năng lực kết hợp phỏng vấn) 21-09-2022 
+
+
+
+Trường ĐH Bách khoa Hà Nội công bố mức điểm trúng tuyển xét tuyển tài năng năm 2021 là bảng tham khảo giúp các thí sinh lựa chọn được ngành phù hợp với điểm hồ sơ năng lực của mình diện 1.3. Mức điểm chuẩn trúng tuyển xét tuyển tài năng 2022 sẽ được công bố sau thời điểm 31/5 trên trang ts.hust.edu.vn 
+
+TT | Ngành/CTĐT | Mã XT | Ngưỡng yêu cầu
+1 | Kỹ thuật Sinh học | BF1 | 84,25
+2 | Kỹ thuật Thực phẩm | BF2 | 75,74
+3 | Kỹ thuật Thực phẩm (CT tiên tiến) | BF-E12 | 73,20
+4 | Kỹ thuật Hóa dược (CT tiên tiến) | CH-E11 | 86,26
+5 | Kỹ thuật điều khiển  Tự động hóa | EE2 | 79,86
+6 | Chương trình tiên tiến Hệ thống điện và năng lượng tái tạo | EE-E18 | 72,66
+7 | Chương trình tiên tiến Kỹ thuật điều khiển-Tự động hóa | EE-E8 | 68,43
+8 | Chương trình Việt pháp: Tin học công nghiệp và Tự động hóa | EE-EP | 73,79
+9 | Quản trị Kinh doanh | EM3 | 72,75
+10 | Tài chính-Ngân hàng | EM5 | 74,39
+11 | Phân tích Kinh doanh (CT tiên tiến) | EM-E13 | 74,7
+12 | Logistics và Quản lý chuỗi cung ứng (CT tiên tiến) | EM-E14 | 68,63
+13 | Kỹ thuật Điện tử-Viễn thông | ET1 | 76,97
+14 | Truyền thông số và Kỹ thuật đa phương tiện (CT tiên tiến) | ET-E16 | 70,35
+15 | Kỹ thuật Điện tử - Viễn thông (CT tiên tiến) | ET-E4 | 72,03
+16 | Kỹ thuật Y sinh (CT tiên tiến) | ET-E5 | 72,01
+17 | Hệ thống nhúng thông minh và IoT (CT tiên tiến) | ET-E9 | 67,46
+18 | CNTT: Khoa học Máy tính | IT1 | 94,18
+19 | CNTT: Kỹ thuật Máy tính | IT2 | 90,45
+20 | Khoa học Dữ liệu và Trí tuệ nhân tạo (CT tiên tiến) | IT-E10 | 97,01
+21 | An toàn không gian số - Cyber Security (CT Tiên tiến) | IT-E15 | 92,85
+22 | Công nghệ Thông tin (Việt-Nhật) | IT-E6 | 75,94
+23 | Công nghệ Thông tin Global ICT | IT-E7 | 92,43
+24 | Công nghệ Thông tin Việt-Pháp | IT-EP | 69,27
+25 | Kỹ thuật Cơ điện tử | ME1 | 67,13
+26 | Toán-Tin | MI1 | 78,1
+27 | Hệ thống Thông tin quản lý | MI2 | 67,83
+28 | Kỹ thuật Hàng không | TE3 | 70,17
+29 | Kỹ thuật Ô tô (CT tiên tiến) | TE-E2 | 66,46
+30 | Cơ khí Hàng không (CT Việt-Pháp PFIEV) | TE-EP | 74,91
+31 | Kỹ thuật Hóa học | CH1 | 64,8
+32 | Hóa học | CH2
+33 | Kỹ thuật In | CH3
+34 | Công nghệ Giáo dục | ED2
+35 | Kỹ thuật điện | EE1
+36 | Kinh tế Công nghiệp | EM1
+37 | Quản lý Công nghiệp | EM2
+38 | Kế toán | EM4
+39 | Điện tử - Viễn thông - ĐH Leibniz Hannover (Đức) | ET-LUH
+40 | Kỹ thuật Môi trường | EV1
+41 | Quản lý Tài nguyên và Môi trường | EV2
+42 | Tiếng Anh KHKT và Công nghệ | FL1
+43 | Tiếng Anh chuyên nghiệp quốc tế | FL2
+44 | Kỹ thuật Nhiệt | HE1
+45 | Kỹ thuật Cơ khí | ME2
+46 | Kỹ thuật Cơ điện tử (CT tiên tiến) | ME-E1
+47 | Cơ khí - Chế tạo máy - hợp tác với ĐH Griffith (Úc) | ME-GU
+48 | Cơ điện tử - hợp tác với ĐH Leibniz Hannover (Đức) | ME-LUH
+49 | Cơ điện tử - hợp tác với ĐHCN Nagaoka (Nhật Bản) | ME-NUT
+50 | Kỹ thuật Vật liệu | MS1
+51 | KHKT Vật liệu (CT tiên tiến) | MS-E3
+52 | Vật lý Kỹ thuật | PH1
+53 | Kỹ thuật Hạt nhân | PH2
+54 | Vật lý Y khoa | PH3
+55 | Kỹ thuật Ô tô | TE1
+56 | Kỹ thuật Cơ khí động lực | TE2
+57 | Quản trị Kinh doanh - ĐH Troy (Hoa Kỳ) | TROY-BA
+58 | Khoa học Máy tính - ĐH Troy (Hoa Kỳ) | TROY-IT
+
+
+
+Xem thêm: 
+
+
+
+Lưu tin 
+
+Bình luận 
+
+
+
+
+
+
+
+Chia sẻ 
+
+
+
+
+
