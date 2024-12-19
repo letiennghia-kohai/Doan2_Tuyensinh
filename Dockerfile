@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     default-libmysqlclient-dev \
     libssl-dev \
     pkg-config \
+    mysql-client \
     && apt-get clean
 USER airflow
 

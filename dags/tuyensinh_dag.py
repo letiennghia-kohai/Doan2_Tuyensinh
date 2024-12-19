@@ -9,7 +9,7 @@ from pipelines.wish_pipeline import etl_to_mysql
 from pipelines.notification_pipeline import crawl_notifications_task
 from pipelines.notification_pipeline import process_notifications_task
 from pipelines.qna_pipeline import process_qna_data
-# from pipelines.mysql_pipeline import load_to_mysql
+from pipelines.mysql_pipeline import etl_to_olap
 # from pipelines.mongodb_pipeline import load_to_mongodb
 
 default_args = {
@@ -67,13 +67,13 @@ process_qna_stage2 = PythonOperator(
     dag=dag
 )
 
-# # Load to MySQL Data Warehouse
-# load_to_mysql = PythonOperator(
-#     task_id='load_to_mysql',
-#     python_callable=load_to_mysql,
-#     op_kwargs={'database': 'data_warehouse'},
-#     dag=dag
-# )
+# Load to MySQL Data Warehouse
+load_to_mysql = PythonOperator(
+    task_id='load_to_mysql',
+    python_callable= etl_to_olap,
+    op_kwargs={'database': 'data_warehouse'},
+    dag=dag
+)
 
 # # Load to MongoDB for Chatbot
 # load_to_mongodb = PythonOperator(
@@ -90,5 +90,5 @@ process_qna_stage2 = PythonOperator(
 
 # process_wish_stage1 >> process_wish_stage2 >> process_qna_stage1 >> process_qna_stage2
 
-[process_wish_stage1 >> process_wish_stage2,
- process_notification_stage1 >> process_notification_stage2, process_qna_stage1 >> process_qna_stage2]
+[process_wish_stage1 >> process_wish_stage2 >> load_to_mysql,
+ process_notification_stage1 >> process_notification_stage2, process_qna_stage1 >> process_qna_stage2] 

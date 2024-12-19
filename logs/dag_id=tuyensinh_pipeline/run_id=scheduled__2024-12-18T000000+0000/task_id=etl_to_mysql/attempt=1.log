@@ -1,0 +1,15 @@
+[2024-12-19T01:50:27.032+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tuyensinh_pipeline.etl_to_mysql scheduled__2024-12-18T00:00:00+00:00 [queued]>
+[2024-12-19T01:50:27.040+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tuyensinh_pipeline.etl_to_mysql scheduled__2024-12-18T00:00:00+00:00 [queued]>
+[2024-12-19T01:50:27.040+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-12-19T01:50:27.061+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): etl_to_mysql> on 2024-12-18 00:00:00+00:00
+[2024-12-19T01:50:27.071+0000] {standard_task_runner.py:57} INFO - Started process 114 to run task
+[2024-12-19T01:50:27.076+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'tuyensinh_pipeline', 'etl_to_mysql', 'scheduled__2024-12-18T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/tuyensinh_dag.py', '--cfg-path', '/tmp/tmp6p41cdw8']
+[2024-12-19T01:50:27.078+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask etl_to_mysql
+[2024-12-19T01:50:27.142+0000] {task_command.py:415} INFO - Running <TaskInstance: tuyensinh_pipeline.etl_to_mysql scheduled__2024-12-18T00:00:00+00:00 [running]> on host 3f61125c7290
+[2024-12-19T01:50:27.212+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='NghiaLT' AIRFLOW_CTX_DAG_ID='tuyensinh_pipeline' AIRFLOW_CTX_TASK_ID='etl_to_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-12-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-18T00:00:00+00:00'
+[2024-12-19T01:50:31.051+0000] {logging_mixin.py:151} INFO - Đã ghi dữ liệu thành công!
+[2024-12-19T01:50:31.052+0000] {logging_mixin.py:151} INFO - Kết nối MySQL đã đóng
+[2024-12-19T01:50:31.055+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-12-19T01:50:31.064+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=tuyensinh_pipeline, task_id=etl_to_mysql, execution_date=20241218T000000, start_date=20241219T015027, end_date=20241219T015031
+[2024-12-19T01:50:31.099+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-12-19T01:50:31.120+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

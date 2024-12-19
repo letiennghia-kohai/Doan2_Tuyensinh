@@ -6,6 +6,111 @@ import numpy as np
 import mysql.connector
 from mysql.connector import Error
 
+
+
+def create_school_major_mapping():
+    """
+    Tạo từ điển ánh xạ logic giữa trường và ngành
+    """
+    return {
+        "ĐẠI HỌC BÁCH KHOA HÀ NỘI": {
+            "mã trường": "BKA",
+            "ngành": {
+                "Kỹ thuật Sinh học": ["BF1"],
+                "Kỹ thuật Thực phẩm": ["BF2"],
+                "Kỹ thuật Sinh học (CT tiên tiến)": ["BF-E19"],
+                "Kỹ thuật Thực phẩm (CT tiên tiến)": ["BF-E12"],
+                "Kỹ thuật Hóa dược (CT tiên tiến)": ["CH-E11"],
+                "Kỹ thuật Hóa học": ["CH1"],
+                "Hóa học": ["CH2"],
+                "Công nghệ giáo dục": ["ED2"],
+                "Hệ thống điện và năng lượng tái tạo (CT tiên tiến)": ["EE-E18"],
+                "Kỹ thuật Điều khiển - Tự động hóa (CT tiên tiến)": ["EE-E8"],
+                "Tin học công nghiệp và Tự động hóa (CT Việt-Pháp PFIEV)": ["EE-EP"],
+                "Kỹ thuật điện": ["EE1"],
+                "Kỹ thuật Điều khiển - Tự động hóa": ["EE2"],
+                "Phân tích kinh doanh (CT tiên tiến)": ["EM-E13"],
+                "Logistics và Quản lý chuỗi cung ứng (CT tiên tiến)": ["EM-E14"],
+                "Quản lý năng lượng": ["EM1"],
+                "Quản lý công nghiệp": ["EM2"],
+                "Quản trị kinh doanh": ["EM3"],
+                "Kế toán": ["EM4"],
+                "Tài chính - Ngân hàng": ["EM5"],
+                "Truyền thông số và Kỹ thuật đa phương tiện (CT tiên tiến)": ["ET-E16"],
+                "Kỹ thuật Điện tử - Viễn thông (CT tiên tiến)": ["ET-E4"],
+                "Kỹ thuật Y sinh (CT tiên tiến)": ["ET-E5"],
+                "Hệ thống nhúng thông minh và IoT (CT tiên tiến)": ["ET-E9"],
+                "Điện tử-Viễn thông - ĐH Leibniz Hannover (Đức)": ["ET-LUH"],
+                "Điện tử và Viễn thông": ["ET1"],
+                "Kỹ thuật Y sinh": ["ET2"],
+                "Kỹ thuật Môi trường": ["EV1"],
+                "Quản lý Tài nguyên và Môi trường": ["EV2"],
+                "Tiếng Anh Khoa học Kỹ thuật và Công nghệ": ["FL1"],
+                "Tiếng Anh chuyên nghiệp quốc tế": ["FL2"],
+                "Kỹ thuật Nhiệt": ["HE1"],
+                "Khoa học Dữ liệu và Trí tuệ Nhân tạo (CT tiên tiến)": ["IT-E10"],
+                "An toàn không gian số (CT tiên tiến)": ["IT-E15"],
+                "Công nghệ thông tin (Việt-Nhật) (CT tiên tiến)": ["IT-E6"],
+                "Công nghệ thông tin (Global ICT)": ["IT-E7"],
+                "Công nghệ thông tin (Việt-Pháp) (CT tiên tiến)": ["IT-EP"],
+                "CNTT: Khoa học Máy tính": ["IT1"],
+                "CNTT: Kỹ thuật máy tính": ["IT2"],
+                "Kỹ thuật Cơ điện tử (CT tiên tiến)": ["ME-E1"],
+                "Cơ khí - Chế tạo máy - ĐH Griffith (Úc)": ["ME-GU"],
+                "Cơ điện tử - ĐH Leibniz Hannover (Đức)": ["ME-LUH"],
+                "Cơ điện tử - ĐH Nagaoka (Nhật Bản)": ["ME-NUT"],
+                "Kỹ thuật Cơ điện tử": ["ME1"],
+                "Kỹ thuật Cơ khí": ["ME2"],
+                "Toán - Tin": ["MI1"],
+                "Hệ thống thông tin quản lý": ["MI2"],
+                "Khoa học và Kỹ thuật Vật liệu (CT tiên tiến)": ["MS-E3"],
+                "Kỹ thuật Vật liệu": ["MS1"],
+                "Chương trình Kỹ thuật vi điện tử và công nghệ Nano": ["MS2"],
+                "Công nghệ vật liệu polyme và compozit": ["MS3"],
+                "Kỹ thuật in": ["MS5"],
+                "Vật lý kỹ thuật": ["PH1"],
+                "Kỹ thuật hạt nhân": ["PH2"],
+                "Vật lý Y khoa": ["PH3"],
+                "Kỹ thuật Ô tô (CT tiên tiến)": ["TE-E2"],
+                "Cơ khí hàng không (CT Việt - Pháp PFIEV)": ["TE-EP"],
+                "Kỹ thuật Ô tô": ["TE1"],
+                "Kỹ thuật Cơ khí động lực": ["TE2"],
+                "Kỹ thuật Hàng không": ["TE3"],
+                "Quản trị kinh doanh - ĐH Troy (Hoa Kỳ)": ["TROY-BA"],
+                "Khoa học máy tính - ĐH Troy (Hoa Kỳ)": ["TROY-IT"],
+                "Công nghệ Dệt May": ["TX1"]
+            }
+        },
+        "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐH QG HÀ NỘI": {
+            "mã trường": "QHT",
+            "ngành": {
+                "Kỹ thuật Sinh học": ["BF1", "BF2", "BF-E12", "BF-E19"],
+                "Khoa học Môi trường": ["EM3", "EM4", "EM5"]
+            }
+        },
+        "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG": {
+            "mã trường": "BVH",
+            "ngành": {
+                "Kỹ thuật Viễn thông": ["QHT94"],
+                "Công nghệ Thông tin": ["TROY-IT"]
+            }
+        },
+        # Các trường khác...
+    }
+
+def get_random_major_for_school(school_mapping, ten_truong):
+    """
+    Lấy ngành học ngẫu nhiên phù hợp với trường
+    """
+    school_data = school_mapping.get(ten_truong, {})
+    if not school_data.get("ngành"):
+        return None, None
+    
+    ten_nganh = random.choice(list(school_data["ngành"].keys()))
+    ma_nganh = random.choice(school_data["ngành"][ten_nganh])
+    
+    return ten_nganh, ma_nganh
+
 def process_wish_data(stage, **kwargs):
     """
     Xử lý sinh dữ liệu nguyện vọng theo từng giai đoạn
@@ -13,9 +118,9 @@ def process_wish_data(stage, **kwargs):
     Args:
         stage (int): Giai đoạn xử lý dữ liệu (1 hoặc 2)
     """
-    # Danh sách các ngành học và trường
-    majors = ["EE-E18", "QHT94", "IT-E7", "EM3", "BF2", "CH2","BF1","BF2","BF-E12","BF-E19","CH1","CH2","CH3","CH-E11","ED2","EE1","EE2","EE-E18","EE-E8","EE-EP","EM1","EM3","EM4","EM5","EM-E13","EM-E14","EM-VUW","ET1","ET2","TROY-BA","TROY-IT","TX1"]
-    schools = ["ĐẠI HỌC BÁCH KHOA HÀ NỘI", "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐH QG HÀ NỘI","HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG","TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI","TRƯỜNG ĐẠI HỌC CMC","TRƯỜNG ĐẠI HỌC KINH TẾ KỸ THUẬT CÔNG NGHIỆP","TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI"]
+    # # Danh sách các ngành học và trường
+    # majors = ["EE-E18", "QHT94", "IT-E7", "EM3", "BF2", "CH2","BF1","BF2","BF-E12","BF-E19","CH1","CH2","CH3","CH-E11","ED2","EE1","EE2","EE-E18","EE-E8","EE-EP","EM1","EM3","EM4","EM5","EM-E13","EM-E14","EM-VUW","ET1","ET2","TROY-BA","TROY-IT","TX1"]
+    # schools = ["ĐẠI HỌC BÁCH KHOA HÀ NỘI", "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐH QG HÀ NỘI","HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG","TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI","TRƯỜNG ĐẠI HỌC CMC","TRƯỜNG ĐẠI HỌC KINH TẾ KỸ THUẬT CÔNG NGHIỆP","TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI"]
     
     # Thiết lập thư mục lưu trữ dữ liệu
     data_dir = '/opt/airflow/data/wish_data'
@@ -62,19 +167,26 @@ def process_wish_data(stage, **kwargs):
         id_sv_list = sinh_vien_df['id_sv'].tolist()
         
         # 4. Tạo bảng `nguyen_vong`
+        school_mapping = create_school_major_mapping()
         nguyen_vong_list = []
         for id_sv in id_sv_list:
             # Mỗi sinh viên có từ 1 đến 5 nguyện vọng
             num_nv = random.randint(1, 5)
             for nv in range(1, num_nv + 1):
+                # Chọn ngẫu nhiên một trường có trong mapping
+                ten_truong = random.choice(list(school_mapping.keys()))
+                ma_truong = school_mapping[ten_truong]["mã trường"]
+                
+                # Lấy ngành phù hợp với trường
+                ten_nganh, ma_nganh = get_random_major_for_school(school_mapping, ten_truong)
                 nguyen_vong_list.append({
                     'id_sv': id_sv,
                     'id_nv': f"{id_sv}_NV{nv}",  # Định danh nguyện vọng dựa trên id_sv
                     'tt_nv': nv,  # Thứ tự nguyện vọng
-                    'ma_truong': np.random.choice(['BKA', 'QHT','BVH','DCN','CMC','DKK','DCN','QHI']),
-                    'ten_truong': np.random.choice(schools),
-                    'ma_nganh': np.random.choice(majors),
-                    'ten_nganh': np.random.choice(['Kỹ thuật Điện', 'Công nghệ Thông tin', 'Kỹ thuật Hóa học', 'Kỹ thuật Sinh học']),
+                    'ma_truong': ma_truong,
+                    'ten_truong': ten_truong,
+                    'ma_nganh': ma_nganh,
+                    'ten_nganh': ten_nganh,
                     'phuong_thuc_1': np.random.choice([1, 0]),
                     'phuong_thuc_2': np.random.choice([1, 0]),
                     'phuong_thuc_3': np.random.choice([1, 0]),

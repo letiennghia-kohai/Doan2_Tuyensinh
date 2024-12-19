@@ -35,16 +35,20 @@ services:
       MYSQL_DATABASE: airflow_db          # Tên database mặc định
       MYSQL_USER: airflow_user            # Tạo user mới
       MYSQL_PASSWORD: airflow_password    # Mật khẩu cho user mới
+    command: 
+      - --explicit_defaults_for_timestamp=1
+      - --default-authentication-plugin=mysql_native_password
     ports:
       - "3307:3306"  # Mở cổng 3306 để truy cập MySQL từ host
     volumes:
-      - mysql_data:/var/lib/mysql  # Lưu trữ dữ liệu MySQL
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql   # Lưu trữ dữ liệu MySQL
   postgres:
     image: postgres:12
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: airflow_reddit
+      POSTGRES_DB: olap_university_data
       POSTGRES_PORT: 5432
     ports:
       - "5432:5432"
@@ -57,6 +61,13 @@ services:
       PMA_PASSWORD: airflow_password
     ports:
       - "8081:80"
+  phppgadmin:
+    image: dockage/phppgadmin
+    environment:
+      - PHP_PG_ADMIN_SERVER_HOST=postgres
+      - PHP_PG_ADMIN_SERVER_PORT=5432
+    ports:
+      - "8083:80"
   redis:
     image: redis:latest
     ports:
@@ -84,4 +95,6 @@ services:
 
 volumes:
   mysql_data:
+    driver: local
+  postgres_data:
     driver: local
